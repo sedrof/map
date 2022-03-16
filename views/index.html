@@ -1,0 +1,1606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="//cdn.leafletjs.com/leaflet-0.7/leaflet.css" /> -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <script src="https://code.jquery.com/jquery-1.10.2.js" rel="external nofollow"></script>
+  <script src="//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="//code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+  <link rel="stylesheet" href="public/stylesheets/leaflet-search.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caliphate Map</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="public/img/logo.png">
+
+  <!-- leaflet css  -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link rel="stylesheet" href="stylesheets/style.css" />
+
+
+</head>
+
+<body>
+
+  <div class="span9" style="height:100%" id="blur">
+    <div id="map">
+      <div class="leaflet-top leaflet-right mine">
+        <button  class="btna leaflet-control" role="button" onclick="location.href='cluster'">Cluster Map</button>
+        <!-- <input type="button" value="Cluster Map" onclick="location.href='cluster'" class="btn success leaflet-control"> -->
+      </div>
+      <div class="leaflet-top leaflet-right about">
+        <button class="btna leaflet-control" role="button" onclick="about()">About us</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="popupWin">
+    <div class="tab jc-center">
+      <!-- <img src="public/img/about-us.jpg" width="50" height="50"> -->
+      <button class="tablinks" onclick="openContent(event, 'about')" id="defaultOpen"><b>About us</b></button>
+      <button class="tablinks" onclick="openContent(event, 'manual')"><b>User Manual</b></button>
+      <span onclick="about()" class="topright">&times</span>
+    </div>
+    <div id="about" class="tabcontent">
+      <!-- <p style="text-align: center;"class="p">This project constructs a map of the Middle-East in the eyes of different historians and
+         geographists throughout hisotry, enabling hisotrians and scientists alike to view and compare visualised maps per each hisotrian.
+          we will collect said descriptions from various books converted from raw text.
+        Project Participants: Obaida Jabareen and Mutlaq Hijazi --
+        Project Instructor: Dr.Tomer Sagi --
+        Client: Dr.Moran Zaga
+      </p> -->
+
+      <p class="p">We are <i>Obaida</i> and <i>Mutlaq</i> and we are senior students in the
+        department of Information Systems at the <i>University of Haifa</i>.
+        The Caliphate Map is our final project, and it is a visulization of books authored by islamic historians and
+        geographers between the 8th and the 14th Centuries.
+        Through multiple complicated NLP and ML algorithems we extracted the data from the books' raw text to be visualized
+        in the map in an attempt to help researchers research the field in a faster, more reliable, intuitive  and efficient manner.
+        <br>Special thanks to our instructor <b>Dr.Tomer Sagi </b> and our client and researcher <b>Dr.Moran
+          Zaga</b>.
+        </p>
+          <div style =" text-align: center;">For more about some of their other work check out  <a href="https://www.mehdie.org/" target="_blank">MEHDIE</a>.</div>
+        <p class="p2">
+        Contact us:
+        <br><br>
+        <!-- <b>Dr.Tomer Sagi</b>: <span
+          style="color: #0645AD">tsagi@is.haifa.ac.il</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <b>Dr.Moran Zaga</b>: <span style="color: #0645AD">moran82@gmail.com</span> -->
+      <div class="grid-container">
+        <div style = "text-align: center;">
+          <b>Obaida Jabareen<b><br>
+            <span style = "color:rgba(134, 133, 133, 0.678); font-size: 15px">Frontend & Backend Developer</span><br>
+            <span style="color: #0645AD">obaida.jabareen@gmail.com</span>
+        </div>
+
+        <div style = "text-align: center;">
+          <b>Mutlaq Hijazi<b><br>
+            <span style = "color:rgba(134, 133, 133, 0.678); font-size: 15px">NLP & ML Developer</span><br>
+            <span style="color: #0645AD">mutlaq.086@gmail.com</span>
+        </div>
+
+      </div>
+      <br>
+      <!-- <b>Obaida Jabareen - Frontend</b>:  <span style = "color: #0645AD">obaida.jabareen@gmail.com</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                            <b>Mutlaq Hijazi</b>: <span style = "color: #0645AD">mutlaq.086@gmail.com</span> -->
+      </p>
+    </div>
+
+    <div id="manual" class="tabcontent">
+      <!-- <h3 style="margin-left:45%">Manual</h3> -->
+      <li class="li">You can switch between 3 different map layers using the radio buttons on the top right hand corner
+        of the screen:</li>
+      <img style="margin-left:35%" src="public/img/layer_scrn.png">
+
+      <li class="li">Below it, appears a list of check boxes, each check box represents a book with the format
+        "<i>Book's name</i> by <i>Author's name</i> in <i> ≈Year of publication</i>". Checking a
+        book adds its data (points) to the map. Each book has unique colors for its pointers on the map (For the optimal experience it is recommended to check no more than 3 boxes). </li>
+      <img style="margin-left:35%" src="public/img/books_scrn.png">
+
+      <li class="li">Below the books are located multiple sliders. Each slider represents a specific author's journey.
+        Moving the slider to the right and left changes the value of the number on the right.
+        The number refers to the lines visualized in the map. Each line represents the author's movement from point A to
+        point B.
+      </li>
+      <img style="margin-left:35%" src="public/img/routes_scrn.png">
+
+      <li class="li">The result is line/s as follows:</li>
+      <img style="margin-left:40%" src="public/img/lines.png">
+
+      <li class="li">To show more information about a specific line (such as from/to) click on it and a popup with the
+        information appears:</li>
+      <img style="margin-left:31%" src="public/img/linepopup_scrn.png">
+
+      <li class="li">On the bottom right hand of the screen appears a legend. It helps the user to map the colors
+        to their books:</li>
+      <img style="margin-left:40%" src="public/img/legend_scrn.png">
+
+      <li class="li">On the top left hand corner are located 4 buttons: <br> The "+" and "-" help zoom in/out of the map
+        (also possible with the scroll wheel on your mouse).
+        <br> The middle button is to make the map fullscreen.
+      </li>
+      <img style="margin-left:47%" src="public/img/topleft_scrn.png">
+      <li class="li">The last button in the top left corner is to search. After clicking the search button, the user
+        has to enter a name (in Arabic), and the bar will show the result in a list, with the book's name on the right
+        hand, clicking a result will redirect to that point in the map.</li>
+      <img style="margin-left:35%" src="public/img/search_scrn.png">
+
+      <li class="li">To show the labels of each point, you have to zoom in (In the default zoom level points' labels
+        aren't visible):</li>
+      <img style="margin-left:40%" src="public/img/zoom_scrn.png">
+
+      <li class="li">As seen in the screenshot above, points' sizes changes according the popularity of that point (the
+        number of times it was mentioned in that book)</li>
+
+      <li class="li">Similar to the lines, to see more information about a specific point, you can click the point and a
+        popup appears showing the information:</li>
+      <img style="margin-left:35%" src="public/img/popup2.png">
+
+      <li class="li">If 2 or more points are on top of each other (or in very close proximity of each other), click on
+        them, and a "spider" will show up seperating them, then you can click the desired point for the popup to appear.
+      </li>
+      <img style="margin-left:41%" src="public/img/spider_scrn.png">
+
+      <li class="li">On the right, there is a "Cluster map" button, clicking the button will redirect to a cluster map.
+        That map contains all the above functionalities except for the routes feature for obvious reasons.</li>
+      <img style="margin-left:25%" src="public/img/clustered_scrn.png">
+
+      <li class="li">To see the data in a table, please add "/tables" to the website's URL or simply <a href="./tables" target="_blank">click here</a>.</li>
+    </div>
+    <!-- <button class="custom-btn btn-5 leaflet-control"  onclick="about()" style="margin-left:44%; margin-top:1%">Close</button> -->
+    <button class="buttoncancel noselect" onclick="about()"><span class='text'>Close</span><span class="icon"><svg
+          xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path
+            d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z" />
+        </svg></span></button>
+
+  </div>
+
+  <script>
+    function about() {
+      var blur = document.getElementById('blur');
+      blur.classList.toggle('active')
+      var popupWin = document.getElementById('popupWin');
+      popupWin.classList.toggle('active')
+      console.log('clicked')
+    }
+
+    function openContent(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+
+  </script>
+</body>
+
+</html>
+
+
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+
+
+
+<script src="js/ibnFaqihRoute.js"></script>
+<script src="js/abuAlKasimRoute.js"></script>
+<script src="js/ibnYahyaRoute.js"></script>
+<script src="js/abuRayhanRoute.js"></script>
+<script src="js/ibnFadlanRoute.js"></script>
+<script src="js/abuAbdullahRoute.js"></script>
+<script src="js/almuqaddasiRoute.js"></script>
+<script src="js/hassanRoute.js"></script>
+<script src="js/ibnAbiRoute.js"></script>
+<script src="js/zakariyaRoute.js"></script>
+
+<script src="js/SliderControl.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OverlappingMarkerSpiderfier-Leaflet/0.2.6/oms.min.js"></script>
+<!-- <script src="./src/leaflet-search.js"></script> -->
+<script src="js/leaflet-search.js"></script>
+<script src="js/leaflet.ajax.min.js"></script>
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'
+  rel='stylesheet' />
+
+
+
+<script>
+  // Map initialization 
+  var map = L.map('map').setView([32.521597, 35.143409], 7);
+
+
+
+
+  /*==============================================
+              TILE LAYER and WMS
+  ================================================*/
+
+  var defaultMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  });
+  defaultMap.addTo(map);
+
+
+  // water color 
+  var watercolor = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
+    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    subdomains: 'abcd',
+    minZoom: 1,
+    maxZoom: 16,
+    ext: 'jpg'
+  });
+
+
+  var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+  });
+
+
+
+
+
+  /*==============================================
+                      MARKER
+  ================================================*/
+
+  //////RED**************************************************************************************
+  let redIconXS = L.icon({
+    iconUrl: 'public/img/redS.png',
+    iconSize: [17, 17], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+
+  let redIconS = L.icon({
+    iconUrl: 'public/img/redS.png',
+    iconSize: [23, 23], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+  let redIconM = L.icon({
+    iconUrl: 'public/img/redS.png',
+    iconSize: [27, 27], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+
+  let redIconL = L.icon({
+    iconUrl: 'public/img/redS.png',
+    iconSize: [32, 32], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+  })
+  let redIconXL = L.icon({
+    iconUrl: 'public/img/redS.png',
+    iconSize: [40, 40], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+  })
+
+  //////RED**************************************************************************************
+
+  //////BLACK**************************************************************************************
+
+  let blackIconXS = L.icon({
+    iconUrl: 'public/img/blackS.png',
+    iconSize: [17, 17], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+
+  let blackIconS = L.icon({
+    iconUrl: 'public/img/blackS.png',
+    iconSize: [23, 23], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+  let blackIconM = L.icon({
+    iconUrl: 'public/img/blackS.png',
+    iconSize: [27, 27], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+
+  let blackIconL = L.icon({
+    iconUrl: 'public/img/blackS.png',
+    iconSize: [32, 32], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+  })
+  let blackIconXL = L.icon({
+    iconUrl: 'public/img/blackS.png',
+    iconSize: [40, 40], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+  })
+
+  //////BLACK**************************************************************************************
+
+  //////PURPLE**************************************************************************************
+
+  let purpleIconXS = L.icon({
+    iconUrl: 'img/purpleS.png',
+    iconSize: [17, 17], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+
+  let purpleIconS = L.icon({
+    iconUrl: 'img/purpleS.png',
+    iconSize: [20, 20], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+
+  let purpleIconM = L.icon({
+    iconUrl: 'img/purpleS.png',
+    iconSize: [20, 20], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+
+  let purpleIconL = L.icon({
+    iconUrl: 'img/purpleS.png',
+    iconSize: [35, 35], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+  })
+
+  let purpleIconXL = L.icon({
+    iconUrl: 'img/purpleS.png',
+    iconSize: [40, 40], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+  })
+  //////PURPLE**************************************************************************************
+
+
+  /*GREEN**********************************************************************/
+  let greenIconXS = L.icon({
+    iconUrl: 'public/img/greenS.png',
+    iconSize: [17, 17], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+
+  let greenIconS = L.icon({
+    iconUrl: 'public/img/greenS.png',
+    iconSize: [23, 23], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+  let greenIconM = L.icon({
+    iconUrl: 'public/img/greenS.png',
+    iconSize: [27, 27], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+
+  let greenIconL = L.icon({
+    iconUrl: 'public/img/greenS.png',
+    iconSize: [32, 32], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+  })
+  let greenIconXL = L.icon({
+    iconUrl: 'public/img/greenS.png',
+    iconSize: [40, 40], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+  })
+
+
+  /*GREEN**********************************************************************/
+
+
+
+  /*Orange**********************************************************************/
+  let orangeIconXS = L.icon({
+    iconUrl: 'public/img/orangeS.png',
+    iconSize: [17, 17], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+
+  let orangeIconS = L.icon({
+    iconUrl: 'public/img/orangeS.png',
+    iconSize: [23, 23], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+  let orangeIconM = L.icon({
+    iconUrl: 'public/img/orangeS.png',
+    iconSize: [27, 27], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+
+  let orangeIconL = L.icon({
+    iconUrl: 'public/img/orangeS.png',
+    iconSize: [32, 32], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+  })
+  let orangeIconXL = L.icon({
+    iconUrl: 'public/img/orangeS.png',
+    iconSize: [40, 40], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+  })
+
+
+  /*Orange**********************************************************************/
+
+  /*Blue**********************************************************************/
+  let blueIconXS = L.icon({
+    iconUrl: 'public/img/blueS.png',
+    iconSize: [17, 17], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+
+  let blueIconS = L.icon({
+    iconUrl: 'public/img/blueS.png',
+    iconSize: [23, 23], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+  let blueIconM = L.icon({
+    iconUrl: 'public/img/blueS.png',
+    iconSize: [27, 27], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+
+  let blueIconL = L.icon({
+    iconUrl: 'public/img/blueS.png',
+    iconSize: [32, 32], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+  })
+  let blueIconXL = L.icon({
+    iconUrl: 'public/img/blueS.png',
+    iconSize: [40, 40], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+  })
+
+
+  /*Blue**********************************************************************/
+
+
+  /*Cyan**********************************************************************/
+  let cyanIconXS = L.icon({
+    iconUrl: 'public/img/cyanS.png',
+    iconSize: [17, 17], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+
+  let cyanIconS = L.icon({
+    iconUrl: 'public/img/cyanS.png',
+    iconSize: [23, 23], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+  let cyanIconM = L.icon({
+    iconUrl: 'public/img/cyanS.png',
+    iconSize: [27, 27], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+
+  let cyanIconL = L.icon({
+    iconUrl: 'public/img/cyanS.png',
+    iconSize: [32, 32], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+  })
+  let cyanIconXL = L.icon({
+    iconUrl: 'public/img/cyanS.png',
+    iconSize: [40, 40], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+  })
+
+
+  /*Cyan**********************************************************************/
+
+
+  /*Yellow**********************************************************************/
+  let yellowIconXS = L.icon({
+    iconUrl: 'public/img/yellowS.png',
+    iconSize: [17, 17], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+
+  let yellowIconS = L.icon({
+    iconUrl: 'public/img/yellowS.png',
+    iconSize: [23, 23], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+  let yellowIconM = L.icon({
+    iconUrl: 'public/img/yellowS.png',
+    iconSize: [27, 27], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+
+  let yellowIconL = L.icon({
+    iconUrl: 'public/img/yellowS.png',
+    iconSize: [32, 32], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+  })
+  let yellowIconXL = L.icon({
+    iconUrl: 'public/img/yellowS.png',
+    iconSize: [40, 40], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+  })
+
+
+  /*Yellow**********************************************************************/
+
+
+
+  /*Pink**********************************************************************/
+  let pinkIconXS = L.icon({
+    iconUrl: 'public/img/pinkS.png',
+    iconSize: [17, 17], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+
+  let pinkIconS = L.icon({
+    iconUrl: 'public/img/pinkS.png',
+    iconSize: [23, 23], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+  let pinkIconM = L.icon({
+    iconUrl: 'public/img/pinkS.png',
+    iconSize: [27, 27], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
+    html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
+      '<span class="my-div-span">RAF Banff Airfield</span>'
+  })
+
+  let pinkIconL = L.icon({
+    iconUrl: 'public/img/pinkS.png',
+    iconSize: [32, 32], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+  })
+  let pinkIconXL = L.icon({
+    iconUrl: 'public/img/pinkS.png',
+    iconSize: [40, 40], // width and height of the image in pixels
+    shadowSize: [35, 20], // width, height of optional shadow image
+    iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+    shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+  })
+
+
+  /*Pink**********************************************************************/
+
+  function getProp(f, l) {
+    return l.bindPopup('<pre>' + JSON.stringify(f.properties, null, ' ').replace(/[\{\}"]/g, '') + '</pre>');
+  }
+
+
+  var oms = new OverlappingMarkerSpiderfier(map);
+
+
+  /* 3 */
+  // These function is run for every feature found in the geojson file. It adds the feature to the empty layer to be created later
+  function ahsanTaqasimData(feature, layer) {
+    var name = feature.properties.placename;
+    var hebrew = feature.properties.hebrewname;
+    var english = feature.properties.englishname;
+    var count = feature.properties.count;
+    var coordinates = feature.geometry.coordinates;
+    var typeAR = feature.properties.Relation.Type_Arabic;
+    var typeEN = feature.properties.Relation.Type_English;
+    var met = feature.properties.Relation.Metropolitan;
+    var dis = feature.properties.Relation.District;
+    var prov = feature.properties.Relation.Province;
+    var all = feature.properties.placename + ' (' + feature.properties.englishname + ')' + ' AhsanTaqasim';  //Used for search (create a unique identifer even for duplicate markers, by adding book name with loc name in 1).
+    var times = (count>1 ? count + ' Times' : count + ' Time');
+    layer.feature = {
+      properties: {
+        Book: 'AhsanTaqasim', Name: name, EnglishName: english, Type_Arabic: typeAR, Type_English: typeEN,
+        Metropolitan: met, District: dis, Province: prov, Mentioned: times, all: all
+      },
+
+    }
+    ahsanTaqasim.addLayer(layer)
+    oms.addMarker(layer);
+    // layer.bindPopup('<pre>'+JSON.stringify(feature.properties,null,' ').replace(/[\{\}"]/g,'')+'</pre>');
+    label = feature.properties.placename + ' (' + feature.properties.englishname + ')';
+    layer.bindTooltip(label,
+      {
+        // direction: 'auto',
+        // permanent: false,
+        // stick: true,
+        // opcaity: 0.1
+        permanent: false,
+        stick: true,
+        opacity: 1,
+        direction: "bottom",
+        interactive: true,
+        offset: [-5, -5,],
+        className: 'myLabel'
+      });
+  };
+
+  function albuldanData(feature, layer) {
+
+    var name = feature.properties.placename;
+    var hebrew = feature.properties.hebrewname;
+    var english = feature.properties.englishname;
+    var count = feature.properties.count;
+    var coordinates = feature.geometry.coordinates;
+    var typeAR = feature.properties.Relation.Type_Arabic;
+    var typeEN = feature.properties.Relation.Type_English;
+    var met = feature.properties.Relation.Metropolitan;
+    var dis = feature.properties.Relation.District;
+    var prov = feature.properties.Relation.Province;
+    var all = feature.properties.placename + ' (' + feature.properties.englishname + ')' + ' Albudan';
+    var times = (count>1 ? count + ' Times' : count + ' Time');
+    layer.feature = {
+      properties: {
+        Book: 'Albudan', Name: name, EnglishName: english, Type_Arabic: typeAR, Type_English: typeEN,
+        Metropolitan: met, District: dis, Province: prov, Mentioned: times, all: all
+      },
+
+    }
+
+    AlBuldan_IbnFaqih.addLayer(layer)
+    oms.addMarker(layer);
+    // layer.bindPopup('<pre>'+JSON.stringify(feature.properties,null,' ').replace(/[\{\}"]/g,'')+'</pre>');
+    label = feature.properties.placename + ' (' + feature.properties.englishname + ')';
+    layer.bindTooltip(label,
+      {
+        permanent: false,
+        stick: true,
+        opacity: 1,
+        direction: "bottom",
+        interactive: true,
+        offset: [-5, -5,],
+        className: 'myLabel'
+      })
+  };
+
+  function futoohData(feature, layer) {
+    var name = feature.properties.placename;
+    var hebrew = feature.properties.hebrewname;
+    var english = feature.properties.englishname;
+    var count = feature.properties.count;
+    var coordinates = feature.geometry.coordinates;
+    var typeAR = feature.properties.Relation.Type_Arabic;
+    var typeEN = feature.properties.Relation.Type_English;
+    var met = feature.properties.Relation.Metropolitan;
+    var dis = feature.properties.Relation.District;
+    var prov = feature.properties.Relation.Province;
+    var all = feature.properties.placename + ' (' + feature.properties.englishname + ')' + ' FutoohAlBuldan';
+    var times = (count>1 ? count + ' Times' : count + ' Time');
+    layer.feature = {
+      properties: {
+        Book: 'FutoohAlBuldan', Name: name, EnglishName: english, Type_Arabic: typeAR, Type_English: typeEN,
+        Metropolitan: met, District: dis, Province: prov, Mentioned: times, all: all
+      },
+
+    }
+    FutoohAlBuldan.addLayer(layer)
+    oms.addMarker(layer);
+    // layer.bindPopup('<pre>'+JSON.stringify(feature.properties,null,' ').replace(/[\{\}"]/g,'')+'</pre>');
+    label = feature.properties.placename + ' (' + feature.properties.englishname + ')';
+    layer.bindTooltip(label,
+      {
+        permanent: false,
+        stick: true,
+        opacity: 1,
+        direction: "bottom",
+        interactive: true,
+        offset: [-5, -5,],
+        className: 'myLabel'
+      })
+  };
+
+  function suratData(feature, layer) {
+    var name = feature.properties.placename;
+    var hebrew = feature.properties.hebrewname;
+    var english = feature.properties.englishname;
+    var count = feature.properties.count;
+    var coordinates = feature.geometry.coordinates;
+    var typeAR = feature.properties.Relation.Type_Arabic;
+    var typeEN = feature.properties.Relation.Type_English;
+    var met = feature.properties.Relation.Metropolitan;
+    var dis = feature.properties.Relation.District;
+    var prov = feature.properties.Relation.Province;
+    var all = feature.properties.placename + ' (' + feature.properties.englishname + ')' + ' SuratAlArd';
+    var times = (count>1 ? count + ' Times' : count + ' Time');
+    layer.feature = {
+      properties: {
+        Book: 'SuratAlArd', Name: name, EnglishName: english, Type_Arabic: typeAR, Type_English: typeEN,
+        Metropolitan: met, District: dis, Province: prov, Mentioned: times, all: all
+      },
+
+    }
+    SuratAlArd.addLayer(layer)
+    oms.addMarker(layer);
+    // layer.bindPopup('<pre>'+JSON.stringify(feature.properties,null,' ').replace(/[\{\}"]/g,'')+'</pre>');
+    label = feature.properties.placename + ' (' + feature.properties.englishname + ')';
+    layer.bindTooltip(label,
+      {
+        permanent: false,
+        stick: true,
+        opacity: 1,
+        direction: "bottom",
+        interactive: true,
+        offset: [-5, -5,],
+        className: 'myLabel'
+      })
+  };
+
+
+  function rihlatIbnFadlanData(feature, layer) {
+    var name = feature.properties.placename;
+    var hebrew = feature.properties.hebrewname;
+    var english = feature.properties.englishname;
+    var count = feature.properties.count;
+    var coordinates = feature.geometry.coordinates;
+    var typeAR = feature.properties.Relation.Type_Arabic;
+    var typeEN = feature.properties.Relation.Type_English;
+    var met = feature.properties.Relation.Metropolitan;
+    var dis = feature.properties.Relation.District;
+    var prov = feature.properties.Relation.Province;
+    var all = feature.properties.placename + ' (' + feature.properties.englishname + ')' + ' RihlatIbnFadlan';
+    var times = (count>1 ? count + ' Times' : count + ' Time');
+    layer.feature = {
+      properties: {
+        Book: 'RihlatIbnFadlan', Name: name, EnglishName: english, Type_Arabic: typeAR, Type_English: typeEN,
+        Metropolitan: met, District: dis, Province: prov, Mentioned: times, all: all
+      },
+
+    }
+    RihlatIbnFadlan.addLayer(layer)
+    oms.addMarker(layer);
+    // layer.bindPopup('<pre>'+JSON.stringify(feature.properties,null,' ').replace(/[\{\}"]/g,'')+'</pre>');
+    label = feature.properties.placename + ' (' + feature.properties.englishname + ')';
+    layer.bindTooltip(label,
+      {
+        permanent: false,
+        stick: true,
+        opacity: 1,
+        direction: "bottom",
+        interactive: true,
+        offset: [-5, -5,],
+        className: 'myLabel'
+      })
+  };
+
+
+  function kitabAlBuldanData(feature, layer) {
+
+    var name = feature.properties.placename;
+    var hebrew = feature.properties.hebrewname;
+    var english = feature.properties.englishname;
+    var count = feature.properties.count;
+    var coordinates = feature.geometry.coordinates;
+    var typeAR = feature.properties.Relation.Type_Arabic;
+    var typeEN = feature.properties.Relation.Type_English;
+    var met = feature.properties.Relation.Metropolitan;
+    var dis = feature.properties.Relation.District;
+    var prov = feature.properties.Relation.Province;
+    var all = feature.properties.placename + ' (' + feature.properties.englishname + ')' + ' KitabAlBuldan';
+    var times = (count>1 ? count + ' Times' : count + ' Time');
+    layer.feature = {
+      properties: {
+        Book: 'KitabAlBuldan', Name: name, EnglishName: english, Type_Arabic: typeAR, Type_English: typeEN,
+        Metropolitan: met, District: dis, Province: prov, Mentioned: times, all: all
+      },
+
+    }
+
+    KitabAlBuldan.addLayer(layer)
+    oms.addMarker(layer);
+    // layer.bindPopup('<pre>'+JSON.stringify(feature.properties,null,' ').replace(/[\{\}"]/g,'')+'</pre>');
+    label = feature.properties.placename + ' (' + feature.properties.englishname + ')';
+    layer.bindTooltip(label,
+      {
+        permanent: false,
+        stick: true,
+        opacity: 1,
+        direction: "bottom",
+        interactive: true,
+        offset: [-5, -5,],
+        className: 'myLabel'
+      })
+  };
+
+  function tahqiqData(feature, layer) {
+
+    var name = feature.properties.placename;
+    var hebrew = feature.properties.hebrewname;
+    var english = feature.properties.englishname;
+    var count = feature.properties.count;
+    var coordinates = feature.geometry.coordinates;
+    var typeAR = feature.properties.Relation.Type_Arabic;
+    var typeEN = feature.properties.Relation.Type_English;
+    var met = feature.properties.Relation.Metropolitan;
+    var dis = feature.properties.Relation.District;
+    var prov = feature.properties.Relation.Province;
+    var all = feature.properties.placename + ' (' + feature.properties.englishname + ')' + ' TahqiqMaLilHind';
+    var times = (count>1 ? count + ' Times' : count + ' Time');
+    layer.feature = {
+      properties: {
+        Book: 'TahqiqMaLilHind', Name: name, EnglishName: english, Type_Arabic: typeAR, Type_English: typeEN,
+        Metropolitan: met, District: dis, Province: prov, Mentioned: times, all: all
+      },
+
+    }
+
+    TahqiqMaLilHind.addLayer(layer)
+    oms.addMarker(layer);
+    // layer.bindPopup('<pre>'+JSON.stringify(feature.properties,null,' ').replace(/[\{\}"]/g,'')+'</pre>');
+    label = feature.properties.placename + ' (' + feature.properties.englishname + ')';
+    layer.bindTooltip(label,
+      {
+        permanent: false,
+        stick: true,
+        opacity: 1,
+        direction: "bottom",
+        interactive: true,
+        offset: [-5, -5,],
+        className: 'myLabel'
+      })
+  };
+
+
+  function rihlatIbnBattutaData(feature, layer) {
+
+    var name = feature.properties.placename;
+    var hebrew = feature.properties.hebrewname;
+    var english = feature.properties.englishname;
+    var count = feature.properties.count;
+    var coordinates = feature.geometry.coordinates;
+    var typeAR = feature.properties.Relation.Type_Arabic;
+    var typeEN = feature.properties.Relation.Type_English;
+    var met = feature.properties.Relation.Metropolitan;
+    var dis = feature.properties.Relation.District;
+    var prov = feature.properties.Relation.Province;
+    var all = feature.properties.placename + ' (' + feature.properties.englishname + ')' + ' RihlatIbnBattuta';
+    var times = (count>1 ? count + ' Times' : count + ' Time');
+    layer.feature = {
+      properties: {
+        Book: 'RihlatIbnBattuta', Name: name, EnglishName: english, Type_Arabic: typeAR, Type_English: typeEN,
+        Metropolitan: met, District: dis, Province: prov, Mentioned: times, all: all
+      },
+
+    }
+
+    RihlatIbnBattuta.addLayer(layer)
+    oms.addMarker(layer);
+    // layer.bindPopup('<pre>'+JSON.stringify(feature.properties,null,' ').replace(/[\{\}"]/g,'')+'</pre>');
+    label = feature.properties.placename + ' (' + feature.properties.englishname + ')';
+    layer.bindTooltip(label,
+      {
+        permanent: false,
+        stick: true,
+        opacity: 1,
+        direction: "bottom",
+        interactive: true,
+        offset: [-5, -5,],
+        className: 'myLabel'
+      })
+  };
+
+
+
+  function rihlatIbnYazidData(feature, layer) {
+
+    var name = feature.properties.placename;
+    var hebrew = feature.properties.hebrewname;
+    var english = feature.properties.englishname;
+    var count = feature.properties.count;
+    var coordinates = feature.geometry.coordinates;
+    var typeAR = feature.properties.Relation.Type_Arabic;
+    var typeEN = feature.properties.Relation.Type_English;
+    var met = feature.properties.Relation.Metropolitan;
+    var dis = feature.properties.Relation.District;
+    var prov = feature.properties.Relation.Province;
+    var all = feature.properties.placename + ' (' + feature.properties.englishname + ')' + ' RihlatIbnYazid';
+    var times = (count>1 ? count + ' Times' : count + ' Time');
+    layer.feature = {
+      properties: {
+        Book: 'RihlatIbnYazid', Name: name, EnglishName: english, Type_Arabic: typeAR, Type_English: typeEN,
+        Metropolitan: met, District: dis, Province: prov, Mentioned: times, all: all
+      },
+
+    }
+
+    RihlatIbnYazid.addLayer(layer)
+    oms.addMarker(layer);
+    // layer.bindPopup('<pre>'+JSON.stringify(feature.properties,null,' ').replace(/[\{\}"]/g,'')+'</pre>');
+    label = feature.properties.placename + ' (' + feature.properties.englishname + ')';
+    layer.bindTooltip(label,
+      {
+        permanent: false,
+        stick: true,
+        opacity: 1,
+        direction: "bottom",
+        interactive: true,
+        offset: [-5, -5,],
+        className: 'myLabel'
+      })
+  };
+
+
+
+
+  function pathData(feature, layer) {
+    routes.addLayer(layer)
+    layer.bindPopup('<pre>' + JSON.stringify(feature.properties, null, ' ').replace(/[\{\}"]/g, '') + '</pre>');
+  };
+
+
+
+  /*==============================================
+              GEOJSON
+  ================================================*/
+
+
+
+  // var ibnFadlanLayer = L.geoJson(ibnFadlan, linesOptions)
+
+  let ahsanTaqasim = L.layerGroup().addTo(map)
+  jQuery.getJSON("data/AhsanTaqasim.json", function (json) {
+    L.geoJSON(json, {
+      //  pointToLayer: redIcon,
+      pointToLayer: function (feature, latlng) {
+        if (feature.properties.count <= 3) return L.marker(latlng, { icon: redIconXS });
+        else if (feature.properties.count > 3 && feature.properties.count <= 15) return L.marker(latlng, { icon: redIconS });
+        else if (feature.properties.count > 15 && feature.properties.count <= 28) return L.marker(latlng, { icon: redIconM });
+        else if (feature.properties.count > 28 && feature.properties.count <= 39) return L.marker(latlng, { icon: redIconL });
+        else if (feature.properties.count > 40) return L.marker(latlng, { icon: redIconXL });
+      },
+      onEachFeature: ahsanTaqasimData,
+
+    })
+  });
+
+  let AlBuldan_IbnFaqih = L.layerGroup().addTo(map)
+  jQuery.getJSON("data/AlBuldan_IbnFaqih.json", function (json) {
+    L.geoJSON(json, {
+      pointToLayer: function (feature, latlng) {
+        if (feature.properties.count <= 3) return L.marker(latlng, { icon: greenIconXS });
+        else if (feature.properties.count > 3 && feature.properties.count <= 15) return L.marker(latlng, { icon: greenIconS });
+        else if (feature.properties.count > 15 && feature.properties.count <= 28) return L.marker(latlng, { icon: greenIconM });
+        else if (feature.properties.count > 28 && feature.properties.count <= 39) return L.marker(latlng, { icon: greenIconL });
+        else if (feature.properties.count > 40) return L.marker(latlng, { icon: greenIconXL });
+      },
+      onEachFeature: albuldanData,
+    })
+  });
+
+  let FutoohAlBuldan = L.layerGroup()
+  jQuery.getJSON("data/FutoohAlBuldan.json", function (json) {
+    L.geoJSON(json, {
+      pointToLayer: function (feature, latlng) {
+        if (feature.properties.count <= 3) return L.marker(latlng, { icon: orangeIconXS });
+        else if (feature.properties.count > 3 && feature.properties.count <= 15) return L.marker(latlng, { icon: orangeIconS });
+        else if (feature.properties.count > 15 && feature.properties.count <= 28) return L.marker(latlng, { icon: orangeIconM });
+        else if (feature.properties.count > 28 && feature.properties.count <= 39) return L.marker(latlng, { icon: orangeIconL });
+        else if (feature.properties.count > 40) return L.marker(latlng, { icon: orangeIconXL });
+      },
+      onEachFeature: futoohData,
+    })
+  });
+
+  let SuratAlArd = L.layerGroup()
+  jQuery.getJSON("data/SuratAlArd.json", function (json) {
+    L.geoJSON(json, {
+      pointToLayer: function (feature, latlng) {
+        if (feature.properties.count <= 3) return L.marker(latlng, { icon: blueIconXS });
+        else if (feature.properties.count > 3 && feature.properties.count <= 15) return L.marker(latlng, { icon: blueIconS });
+        else if (feature.properties.count > 15 && feature.properties.count <= 28) return L.marker(latlng, { icon: blueIconM });
+        else if (feature.properties.count > 28 && feature.properties.count <= 39) return L.marker(latlng, { icon: blueIconL });
+        else if (feature.properties.count > 40) return L.marker(latlng, { icon: blueIconXL });
+      },
+      onEachFeature: suratData,
+    })
+  });
+
+  let RihlatIbnFadlan = L.layerGroup()
+  jQuery.getJSON("data/RihlatIbnFadlan.json", function (json) {
+    L.geoJSON(json, {
+      pointToLayer: function (feature, latlng) {
+        if (feature.properties.count <= 3) return L.marker(latlng, { icon: blackIconXS });
+        else if (feature.properties.count > 3 && feature.properties.count <= 15) return L.marker(latlng, { icon: blackIconS });
+        else if (feature.properties.count > 15 && feature.properties.count <= 28) return L.marker(latlng, { icon: blackIconM });
+        else if (feature.properties.count > 28 && feature.properties.count <= 39) return L.marker(latlng, { icon: blackIconL });
+        else if (feature.properties.count > 40) return L.marker(latlng, { icon: blackIconXL });
+      },
+      onEachFeature: rihlatIbnFadlanData,
+
+    })
+  });
+
+
+  let KitabAlBuldan = L.layerGroup()
+  jQuery.getJSON("data/KitabAlBuldan_AlYaqubi.json", function (json) {
+    L.geoJSON(json, {
+      pointToLayer: function (feature, latlng) {
+        if (feature.properties.count <= 3) return L.marker(latlng, { icon: purpleIconXS });
+        else if (feature.properties.count > 3 && feature.properties.count <= 15) return L.marker(latlng, { icon: purpleIconS });
+        else if (feature.properties.count > 15 && feature.properties.count <= 28) return L.marker(latlng, { icon: purpleIconM });
+        else if (feature.properties.count > 28 && feature.properties.count <= 39) return L.marker(latlng, { icon: purpleIconL });
+        else if (feature.properties.count > 40) return L.marker(latlng, { icon: purpleIconXL });
+      },
+      onEachFeature: kitabAlBuldanData,
+
+    })
+  });
+
+  let TahqiqMaLilHind = L.layerGroup()
+  jQuery.getJSON("data/TahqiqMaLilHind.json", function (json) {
+    L.geoJSON(json, {
+      pointToLayer: function (feature, latlng) {
+        if (feature.properties.count <= 3) return L.marker(latlng, { icon: cyanIconXS });
+        else if (feature.properties.count > 3 && feature.properties.count <= 15) return L.marker(latlng, { icon: cyanIconS });
+        else if (feature.properties.count > 15 && feature.properties.count <= 28) return L.marker(latlng, { icon: cyanIconM });
+        else if (feature.properties.count > 28 && feature.properties.count <= 39) return L.marker(latlng, { icon: cyanIconL });
+        else if (feature.properties.count > 40) return L.marker(latlng, { icon: cyanIconXL });
+      },
+      onEachFeature: tahqiqData,
+
+    })
+  });
+
+  let RihlatIbnBattuta = L.layerGroup()
+  jQuery.getJSON("data/RihlatIbnBattuta.json", function (json) {
+    L.geoJSON(json, {
+      pointToLayer: function (feature, latlng) {
+        if (feature.properties.count <= 3) return L.marker(latlng, { icon: yellowIconXS });
+        else if (feature.properties.count > 3 && feature.properties.count <= 15) return L.marker(latlng, { icon: yellowIconS });
+        else if (feature.properties.count > 15 && feature.properties.count <= 28) return L.marker(latlng, { icon: yellowIconM });
+        else if (feature.properties.count > 28 && feature.properties.count <= 39) return L.marker(latlng, { icon: yellowIconL });
+        else if (feature.properties.count > 40) return L.marker(latlng, { icon: yellowIconXL });
+      },
+      onEachFeature: rihlatIbnBattutaData,
+
+    })
+  });
+
+  let RihlatIbnYazid = L.layerGroup()
+  jQuery.getJSON("data/RihlatIbnYazidAlSirafi.json", function (json) {
+    L.geoJSON(json, {
+      pointToLayer: function (feature, latlng) {
+        if (feature.properties.count <= 3) return L.marker(latlng, { icon: pinkIconXS });
+        else if (feature.properties.count > 3 && feature.properties.count <= 15) return L.marker(latlng, { icon: pinkIconS });
+        else if (feature.properties.count > 15 && feature.properties.count <= 28) return L.marker(latlng, { icon: pinkIconM });
+        else if (feature.properties.count > 28 && feature.properties.count <= 39) return L.marker(latlng, { icon: pinkIconL });
+        else if (feature.properties.count > 40) return L.marker(latlng, { icon: pinkIconXL });
+      },
+      onEachFeature: rihlatIbnYazidData,
+
+    })
+  });
+
+
+  var oms = new OverlappingMarkerSpiderfier(map);
+
+  var popup = new L.Popup();
+  oms.addListener('click', function (marker) {
+
+    var str = '<pre>' + JSON.stringify(marker.feature.properties, null, ' ').replace(/[,\{\}"]/g, '') + '</pre>';
+    str = str.split(" all")[0]
+    // console.log("Open");
+    popup.setContent(str);
+    popup.setLatLng(marker.getLatLng());
+    map.openPopup(popup);
+  });
+
+  oms.addListener('spiderfy', function (markers) {
+    // console.log("Close");
+    map.closePopup();
+  });
+
+
+
+
+
+  var tooltipThreshold = 9;
+  var lastZoom;
+  map.on('zoomend', function () {
+    var zoom = map.getZoom();
+    if (zoom < tooltipThreshold && (!lastZoom || lastZoom >= tooltipThreshold)) {
+      map.eachLayer(function (l) {
+        if (l.getTooltip()) {
+          var tooltip = l.getTooltip();
+          l.unbindTooltip().bindTooltip(tooltip, {
+            permanent: false
+          })
+        }
+      })
+    } else if (zoom >= tooltipThreshold && (!lastZoom || lastZoom < tooltipThreshold)) {
+      map.eachLayer(function (l) {
+        if (l.getTooltip()) {
+          var tooltip = l.getTooltip();
+          l.unbindTooltip().bindTooltip(tooltip, {
+            permanent: true
+          })
+        }
+      });
+    }
+    lastZoom = zoom;
+  })
+
+
+
+  /*==============================================
+                  LAYER CONTROL
+  ================================================*/
+  var baseMaps = {
+    "Default": defaultMap,
+    "Water Color": watercolor,
+    'WorldImagery': Esri_WorldImagery,
+  }
+  var overlayMaps = {
+    'Ahsan Taqasim By Al-Muqaddasī in 991': ahsanTaqasim,
+    'AlBuldan By Ibn Al-Faqīh in 951': AlBuldan_IbnFaqih,
+    'Futooh AlBuldan By Al-Balādhurī in 892': FutoohAlBuldan,
+    'Surat AlArd By Ibn Ḥawqal in 978': SuratAlArd,
+    'TahqiqMalilHind By Al-Bīrūnī in 1048': TahqiqMaLilHind,
+    'Rihlat Ibn Fadlan By Ahmad Ibn Fadlan': RihlatIbnFadlan,
+    'Kitab AlBuldan By Al-Yaʿqūbī in 897': KitabAlBuldan,
+    'Rihlat Ibn Baṭūṭah in 1369': RihlatIbnBattuta,
+    'Rihlat Ibn Yazid': RihlatIbnYazid
+
+    // 'TahqiqMalilHind - black' : TahqiqMalilHind,
+    // "Ibn Faqih AlHamadhani's Routes": routes,
+    // 'Polygon Data': polygonData,
+    // 'Test' : mylayer
+  };
+  // map.removeLayer(singleMarker)
+
+  //Add full screen button to map
+  map.addControl(new L.Control.Fullscreen({
+    title: {
+      'false': 'View in Fullscreen',
+      'true': 'Exit Fullscreen'
+    }
+  }));
+
+
+  L.control.layers(baseMaps, overlayMaps, { collapsed: false }).addTo(map);
+
+  var books = L.layerGroup([
+    ahsanTaqasim,
+    AlBuldan_IbnFaqih,
+    FutoohAlBuldan,
+    SuratAlArd,
+    TahqiqMaLilHind,
+    RihlatIbnFadlan,
+    KitabAlBuldan,
+    RihlatIbnBattuta,
+    RihlatIbnYazid
+  ]);
+
+  L.control.search({
+    layer: books,
+    initial: false,
+    propertyName: 'all',
+    propertyLoc: 'coordinates',
+    hideMarkerOnCollapse: true,
+
+    buildTip: function (text, val) {
+      var type = val.layer.feature.properties.Book;
+      // var type = propertyName.split(" ")[0];
+      return '<a href="#" class="' + type + '">' + text.split(" ")[0] + '<b>' + type + '</b></a>';
+    }
+  })
+    .addTo(map);
+
+
+
+
+  /*==============================================
+                  STYLE CUSTOMIZATION
+  ================================================*/
+
+  function getProp(feature, layer) {
+    layer.bindPopup('<pre>' + JSON.stringify(feature.properties, null, ' ').replace(/[\{\}"]/g, '') + '</pre>');
+  };
+
+  var linesOptions = {
+    onEachFeature: onEachFeature
+  };
+  function onEachFeature(feature, layer) {
+    var content = "<div style='clear: both'></div><div>" + "From Arabic:  " + feature.properties.fromarabic + "<br>" + "From Hebrew:  " + feature.properties.fromhebrew +
+      "<br>" + "From English:  " + feature.properties.fromenglish +
+      "<br>" + "To Arabic:  " + feature.properties.toarabic +
+      "<br>" + "To Hebrew:  " + feature.properties.tohebrew +
+      "<br>" + "To English:  " + feature.properties.toenglish +
+      "<br>" + "Order:  " + feature.properties.order +
+      "<br>" + "Author - Book:  " + feature.properties.author + ' - ' + feature.properties.Book + "<p>";
+    layer.bindPopup(content, { closeButton: true });
+  }
+
+  var ibnFaqihLayer = L.geoJson(IbnFaqih, linesOptions)
+  var sliderControl = L.control.sliderControl({
+    position: "topright",
+    layer: ibnFaqihLayer,
+    alwaysShowDate: true,
+    popupOptions: { closeOnClick: false },
+    showAllPopups: false, // to show all popups, instead of one, same as popup option "autoClose: false"
+    showPopups: false,
+    label: 'al-Faqīh AlHamadhani'
+  });
+  map.addControl(sliderControl);
+  sliderControl.startSlider();
+
+
+  var abuAlKasimLayer = L.geoJson(abuAlKasim, linesOptions)
+  var sliderControl2 = L.control.sliderControl({
+    position: "topright",
+    layer: abuAlKasimLayer,
+    alwaysShowDate: true,
+    popupOptions: { closeOnClick: false },
+    showAllPopups: false, // to show all popups, instead of one, same as popup option "autoClose: false"
+    showPopups: false,
+    label: 'Abu AlKasim Ibn Ḥawqal AlNasibi'
+  });
+  map.addControl(sliderControl2);
+  sliderControl2.startSlider();
+
+
+
+
+  var ibnYahyaLayer = L.geoJson(ibnYahya, linesOptions)
+  var sliderControl3 = L.control.sliderControl({
+    position: "topright",
+    layer: ibnYahyaLayer,
+    alwaysShowDate: true,
+    popupOptions: { closeOnClick: false },
+    showAllPopups: false, // to show all popups, instead of one, same as popup option "autoClose: false"
+    showPopups: false,
+    label: 'Aḥmad Ibn Yaḥyā Ibn Jabir Al-Balādhurī'
+  });
+  map.addControl(sliderControl3);
+  sliderControl3.startSlider();
+
+  var ibnFadlanLayer = L.geoJson(ibnFadlan, linesOptions)
+  var sliderControl5 = L.control.sliderControl({
+    position: "topright",
+    layer: ibnFadlanLayer,
+    alwaysShowDate: true,
+    popupOptions: { closeOnClick: false },
+    showAllPopups: false, // to show all popups, instead of one, same as popup option "autoClose: false"
+    showPopups: false,
+    label: 'Ahmad Ibn Fadlan'
+  });
+  map.addControl(sliderControl5);
+  sliderControl5.startSlider();
+
+
+  // var abuRayhanLayer = L.geoJson(abuRayhan, linesOptions)
+  //     var sliderControl4 = L.control.sliderControl({
+  //       position: "topright",
+  //       layer: abuRayhanLayer,
+  //       alwaysShowDate: true,
+  //       popupOptions : {closeOnClick: false},
+  //       showAllPopups: false, // to show all popups, instead of one, same as popup option "autoClose: false"
+  //       showPopups: false,
+  //       label : 'Abu Rayhan AlBayruni'
+  // });
+  //     map.addControl(sliderControl4);
+  //     sliderControl4.startSlider();
+
+
+  var hassanLayer = L.geoJson(hassan, linesOptions)
+  var sliderControl6 = L.control.sliderControl({
+    position: "topright",
+    layer: hassanLayer,
+    alwaysShowDate: true,
+    popupOptions: { closeOnClick: false },
+    showAllPopups: false, // to show all popups, instead of one, same as popup option "autoClose: false"
+    showPopups: false,
+    label: 'Hassan Ibn Yazid AlSirafi'
+  });
+  map.addControl(sliderControl6);
+  sliderControl6.startSlider();
+
+
+  var abuAbdullahLayer = L.geoJson(abuAbdullah, linesOptions)
+  var sliderControl7 = L.control.sliderControl({
+    position: "topright",
+    layer: abuAbdullahLayer,
+    alwaysShowDate: true,
+    popupOptions: { closeOnClick: false },
+    showAllPopups: false, // to show all popups, instead of one, same as popup option "autoClose: false"
+    showPopups: false,
+    label: 'Abu Abdullah Muhammad ibn Battuta'
+  });
+  map.addControl(sliderControl7);
+  sliderControl7.startSlider();
+
+
+  var ibnAbiLayer = L.geoJson(ibnAbi, linesOptions)
+  var sliderControl8 = L.control.sliderControl({
+    position: "topright",
+    layer: ibnAbiLayer,
+    alwaysShowDate: true,
+    popupOptions: { closeOnClick: false },
+    showAllPopups: false, // to show all popups, instead of one, same as popup option "autoClose: false"
+    showPopups: false,
+    label: 'Aḥmad ibn Abī Ya‘qūb al-Ya‘qūbī'
+  });
+  map.addControl(sliderControl8);
+  sliderControl8.startSlider();
+
+
+  var zakariyaLayer = L.geoJson(zakariya, linesOptions)
+  var sliderControl9 = L.control.sliderControl({
+    position: "topright",
+    layer: zakariyaLayer,
+    alwaysShowDate: true,
+    popupOptions: { closeOnClick: false },
+    showAllPopups: false, // to show all popups, instead of one, same as popup option "autoClose: false"
+    showPopups: false,
+    label: 'Zakariya AlQazwini'
+  });
+  map.addControl(sliderControl9);
+  sliderControl9.startSlider();
+
+
+  var almuqaddasiLayer = L.geoJson(almuqaddasi, linesOptions)
+  var sliderControl10 = L.control.sliderControl({
+    position: "topright",
+    layer: almuqaddasiLayer,
+    alwaysShowDate: true,
+    popupOptions: { closeOnClick: false },
+    showAllPopups: false, // to show all popups, instead of one, same as popup option "autoClose: false"
+    showPopups: false,
+    label: 'Al-Muqaddasī'
+  });
+  map.addControl(sliderControl10);
+  sliderControl10.startSlider();
+
+
+
+  function getColor(d) {
+    return d === 'Ahsan Taqasim' ? "#FF0000" :
+      d === 'AlBuldan' ? "#4BCF00" :
+        d === 'Futooh AlBuldan' ? "#F19200" :
+          d === 'Surat AlArd' ? "#1300D0" :
+            d === 'TahqiqMaLilHind' ? "#40E0D0" :
+              d === 'Rihlat Ibn Fadlan' ? "#050505" :
+                d === 'Kitab AlBuldan' ? "#BA55D3" :
+                  d === 'Rihlat Ibn Baṭūṭah' ? "#D4DB0B" :
+                    d === 'Rihlat Ibn Yazid' ? "#C71585" :
+                      //  d === 'TahqiqMalilHind' ? "#9600DC" :
+                      "#ff7f00";
+  }
+
+
+  var legend = L.control({ position: 'bottomleft' });
+  legend.onAdd = function (map) {
+
+    var div = L.DomUtil.create('div', 'info legend');
+    labels = ['<strong>Legend</strong>'],
+      books = ['Ahsan Taqasim', 'AlBuldan', 'Futooh AlBuldan', 'Surat AlArd', 'TahqiqMaLilHind', 'Rihlat Ibn Fadlan', 'Kitab AlBuldan', 'Rihlat Ibn Baṭūṭah',
+        'Rihlat Ibn Yazid'];
+
+    for (var i = 0; i < books.length; i++) {
+
+      div.innerHTML +=
+        labels.push(
+          '<i class="circle" style="background:' + getColor(books[i]) + '"></i> ' +
+          (books[i] ? books[i] : '+'));
+
+    }
+    div.innerHTML = labels.join('<br>');
+    return div;
+  };
+  legend.addTo(map);
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.js" rel="external nofollow" ></script>
+  <script src="//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <script src="public/ibnFaqihRoute.js"></script>
+  <script src="public/leaflet-search.js"></script>
+</head>
+<body>
+  Test
+  
+</body>
+</html> -->

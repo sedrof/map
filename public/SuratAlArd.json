@@ -1,0 +1,9361 @@
+[{
+  "_id": {
+    "$oid": "60acc998259febe16d36bee6"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.09633,
+      35.6781
+    ]
+  },
+  "properties": {
+    "placename": "القيروان",
+    "hebrewname": "אלקירואנ",
+    "englishname": "alqyroan",
+    "Description": "",
+    "count": 30,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "عاصم",
+      "District": "الباب",
+      "Province": "إفريقية"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bef6"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.3915976,
+      33.29761532
+    ]
+  },
+  "properties": {
+    "placename": "بغداذ",
+    "hebrewname": "בעדאד",
+    "englishname": "bgdaV",
+    "Description": "",
+    "count": 39,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36beff"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      29.912492653583943,
+      31.190231532012543
+    ]
+  },
+  "properties": {
+    "placename": "البلينا",
+    "hebrewname": "אלבלינא",
+    "englishname": "alblyna",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf0e"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.16058622861492,
+      29.884917849083706
+    ]
+  },
+  "properties": {
+    "placename": "كربال",
+    "hebrewname": "כרבאל",
+    "englishname": "krbal",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf11"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      58.79575,
+      36.21329
+    ]
+  },
+  "properties": {
+    "placename": "نيسابور",
+    "hebrewname": "ניסאבור",
+    "englishname": "nysabor",
+    "Description": "",
+    "count": 50,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "راونير",
+      "District": "بيهق",
+      "Province": "جرجان"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf19"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.78699,
+      14.27179
+    ]
+  },
+  "properties": {
+    "placename": "العقبة",
+    "hebrewname": "אלעקבה",
+    "englishname": "alCqbah",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf5f"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -5.00028,
+      34.03313
+    ]
+  },
+  "properties": {
+    "placename": "فاس",
+    "hebrewname": "פאס",
+    "englishname": "fas",
+    "Description": "",
+    "count": 12,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "فاس",
+      "District": "الزاب",
+      "Province": "المغرب"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf68"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.69014,
+      27.35134
+    ]
+  },
+  "properties": {
+    "placename": "ضبا",
+    "hebrewname": "דבא",
+    "englishname": "Dba",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf6b"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      53.97801861897104,
+      28.268137073725878
+    ]
+  },
+  "properties": {
+    "placename": "جويم",
+    "hebrewname": "גוימ",
+    "englishname": "joym",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "فارس"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf77"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      50.587846040133975,
+      26.20871927215889
+    ]
+  },
+  "properties": {
+    "placename": "الماحوز",
+    "hebrewname": "אלמאחוז",
+    "englishname": "almaHoz",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf83"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.92144,
+      33.32836
+    ]
+  },
+  "properties": {
+    "placename": "جن",
+    "hebrewname": "גנ",
+    "englishname": "jn",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf9c"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      41.17579312577182,
+      37.154299481448255
+    ]
+  },
+  "properties": {
+    "placename": "نصيبين",
+    "hebrewname": "נציבינ",
+    "englishname": "nSybyn",
+    "Description": "",
+    "count": 13,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "ينوف",
+      "District": "الموصل",
+      "Province": "الروم"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfa5"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.66813649,
+      31.97563763
+    ]
+  },
+  "properties": {
+    "placename": "البلقاء",
+    "hebrewname": "אלבלקאא",
+    "englishname": "alblqaa",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "كورة",
+      "Type_English": "town",
+      "Metropolitan": "الإسكندرية",
+      "District": "دمشق",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfca"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.39716853399441,
+      33.32906173907535
+    ]
+  },
+  "properties": {
+    "placename": "دجلة",
+    "hebrewname": "דגלה",
+    "englishname": "djlah",
+    "Description": "",
+    "count": 63,
+    "Relation": {
+      "Type_Arabic": "واد",
+      "Type_English": "valley",
+      "Metropolitan": "عظم",
+      "District": "الموصل",
+      "Province": "خزر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bff1"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      40.74357,
+      37.31309
+    ]
+  },
+  "properties": {
+    "placename": "ماردين",
+    "hebrewname": "מארדינ",
+    "englishname": "mardyn",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "قلعة",
+      "Type_English": "castle",
+      "Metropolitan": "القنة",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c010"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      39.19797,
+      21.54238
+    ]
+  },
+  "properties": {
+    "placename": "جدة",
+    "hebrewname": "גדה",
+    "englishname": "jdah",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "ود",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c022"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      53.6482,
+      28.9383
+    ]
+  },
+  "properties": {
+    "placename": "فسا",
+    "hebrewname": "פסא",
+    "englishname": "fsa",
+    "Description": "",
+    "count": 10,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "دارابجرد",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c041"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.383671675976146,
+      32.88674013857886
+    ]
+  },
+  "properties": {
+    "placename": "حران",
+    "hebrewname": "חראנ",
+    "englishname": "Hran",
+    "Description": "",
+    "count": 9,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "حجة",
+      "District": "الموصل",
+      "Province": "همدان"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c049"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      66.95972,
+      39.65417
+    ]
+  },
+  "properties": {
+    "placename": "سمرقند",
+    "hebrewname": "סמרקנד",
+    "englishname": "smrqnd",
+    "Description": "",
+    "count": 65,
+    "Relation": {
+      "Type_Arabic": "بلد",
+      "Type_English": "town",
+      "Metropolitan": "باب دستان",
+      "District": "سمرقند",
+      "Province": "ما وراء النهر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf20"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      34.89277,
+      36.91766
+    ]
+  },
+  "properties": {
+    "placename": "طرسوس",
+    "hebrewname": "טרסוס",
+    "englishname": "Trsos",
+    "Description": "",
+    "count": 10,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "ملك",
+      "District": "ثغور الشام",
+      "Province": "الروم"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf35"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      37.5157,
+      36.37051
+    ]
+  },
+  "properties": {
+    "placename": "الباب",
+    "hebrewname": "אלבאב",
+    "englishname": "albab",
+    "Description": "",
+    "count": 26,
+    "Relation": {
+      "Type_Arabic": "بليدة",
+      "Type_English": "small town",
+      "Metropolitan": "المذكر",
+      "District": "حلب",
+      "Province": "متفرقة"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf45"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      47.95207904963696,
+      36.070781010965796
+    ]
+  },
+  "properties": {
+    "placename": "شيرين",
+    "hebrewname": "שירינ",
+    "englishname": "shyryn",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "قصر",
+      "Type_English": "palace",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf4b"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      43.92312653,
+      17.07063574
+    ]
+  },
+  "properties": {
+    "placename": "صعدة",
+    "hebrewname": "צעדה",
+    "englishname": "SCdah",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "مخلاف",
+      "Type_English": "yemeni district",
+      "Metropolitan": "أدم",
+      "District": "خولان",
+      "Province": "اليمن"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf56"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.796688275182482,
+      31.425070816483807
+    ]
+  },
+  "properties": {
+    "placename": "اغمات",
+    "hebrewname": "אעמאת",
+    "englishname": "agmat",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf5d"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      71.78432,
+      40.38421
+    ]
+  },
+  "properties": {
+    "placename": "فرغانة",
+    "hebrewname": "פרעאנה",
+    "englishname": "frganah",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "قبا",
+      "District": "شاش",
+      "Province": "ما وراء النهر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf5e"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.16064404910557,
+      30.23059097963201
+    ]
+  },
+  "properties": {
+    "placename": "اجدابية",
+    "hebrewname": "אגדאביה",
+    "englishname": "ajdabyah",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf89"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      62.18030342,
+      37.66844146
+    ]
+  },
+  "properties": {
+    "placename": "مرو",
+    "hebrewname": "מרו",
+    "englishname": "mro",
+    "Description": "",
+    "count": 48,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "صفر",
+      "District": "الحجاز",
+      "Province": "الكوفة"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf94"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      41.45791568615691,
+      30.53675561573824
+    ]
+  },
+  "properties": {
+    "placename": "كران",
+    "hebrewname": "כראנ",
+    "englishname": "kran",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "قرية",
+      "Type_English": "village",
+      "Metropolitan": "دارابجرد",
+      "District": "-",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfba"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.07647,
+      32.92814
+    ]
+  },
+  "properties": {
+    "placename": "عكا",
+    "hebrewname": "עכא",
+    "englishname": "Cka",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "موضع",
+      "Type_English": "place",
+      "Metropolitan": "حطين",
+      "District": "-",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfbd"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      39.26951,
+      -6.82349
+    ]
+  },
+  "properties": {
+    "placename": "السلام",
+    "hebrewname": "אלסלאמ",
+    "englishname": "alslam",
+    "Description": "",
+    "count": 21,
+    "Relation": {
+      "Type_Arabic": "جبل",
+      "Type_English": "mountain",
+      "Metropolitan": "-",
+      "District": "الحجاز",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfee"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      30.935322604196454,
+      30.46461230693086
+    ]
+  },
+  "properties": {
+    "placename": "منوف",
+    "hebrewname": "מנופ",
+    "englishname": "mnof",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "قرية",
+      "Type_English": "village",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "مصر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bffa"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      49.60537,
+      14.76026
+    ]
+  },
+  "properties": {
+    "placename": "الشحر",
+    "hebrewname": "אלשחר",
+    "englishname": "alshHr",
+    "Description": "",
+    "count": 8,
+    "Relation": {
+      "Type_Arabic": "صقع",
+      "Type_English": "region",
+      "Metropolitan": "صحار",
+      "District": "بحر الهند",
+      "Province": "اليمن"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c000"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      62.19967,
+      34.34817
+    ]
+  },
+  "properties": {
+    "placename": "هراة",
+    "hebrewname": "הראה",
+    "englishname": "hraah",
+    "Description": "",
+    "count": 49,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "عامر",
+      "District": "سرخس",
+      "Province": "الصين"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c003"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      47.32362749438803,
+      16.08296311495871
+    ]
+  },
+  "properties": {
+    "placename": "سبأ",
+    "hebrewname": "סבא",
+    "englishname": "sbA",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "لحاء",
+      "District": "-",
+      "Province": "اليمن"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c00c"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      54.65440101,
+      35.47012464
+    ]
+  },
+  "properties": {
+    "placename": "سمنان",
+    "hebrewname": "סמנאנ",
+    "englishname": "smnan",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "موضع",
+      "Type_English": "place",
+      "Metropolitan": "تميم",
+      "District": "اليمامة",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c01a"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      32.81637313499157,
+      26.002234671483123
+    ]
+  },
+  "properties": {
+    "placename": "قفط",
+    "hebrewname": "קפט",
+    "englishname": "qfT",
+    "Description": "",
+    "count": 8,
+    "Relation": {
+      "Type_Arabic": "ديار",
+      "Type_English": "small abodes",
+      "Metropolitan": "-",
+      "District": "النيل",
+      "Province": "مصر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c040"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      57.400201760258945,
+      23.425908757944228
+    ]
+  },
+  "properties": {
+    "placename": "الرستاق",
+    "hebrewname": "אלרסתאק",
+    "englishname": "alrstaq",
+    "Description": "",
+    "count": 14,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c042"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      54.30402579,
+      32.56323656
+    ]
+  },
+  "properties": {
+    "placename": "ايران",
+    "hebrewname": "איראנ",
+    "englishname": "ayran",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36beed"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      1.3343709612462116,
+      36.159509311055125
+    ]
+  },
+  "properties": {
+    "placename": "شلف",
+    "hebrewname": "שלפ",
+    "englishname": "shlf",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bef1"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      52.68691043246659,
+      29.212948777015175
+    ]
+  },
+  "properties": {
+    "placename": "كوار",
+    "hebrewname": "כואר",
+    "englishname": "koar",
+    "Description": "",
+    "count": 7,
+    "Relation": {
+      "Type_Arabic": "بلدة",
+      "Type_English": "town",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "فارس"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf16"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      16.13904,
+      29.1614
+    ]
+  },
+  "properties": {
+    "placename": "ودان",
+    "hebrewname": "ודאנ",
+    "englishname": "odan",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "مواضع",
+      "Type_English": "places",
+      "Metropolitan": "صدر",
+      "District": "الحجاز",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf33"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      45.71882426,
+      32.66448284
+    ]
+  },
+  "properties": {
+    "placename": "واسط",
+    "hebrewname": "ואסט",
+    "englishname": "oasT",
+    "Description": "",
+    "count": 29,
+    "Relation": {
+      "Type_Arabic": "بلاد",
+      "Type_English": "caliphate's country",
+      "Metropolitan": "نهر غراف",
+      "District": "الأهواز",
+      "Province": "الكوفة"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf64"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.463891096233578,
+      41.9038536994551
+    ]
+  },
+  "properties": {
+    "placename": "رومية",
+    "hebrewname": "רומיה",
+    "englishname": "romyah",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "قرية",
+      "Type_English": "village",
+      "Metropolitan": "فرنج",
+      "District": "الباب",
+      "Province": "الروم"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf6e"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      68.76780824,
+      26.02647424
+    ]
+  },
+  "properties": {
+    "placename": "السند",
+    "hebrewname": "אלסנד",
+    "englishname": "alsnd",
+    "Description": "",
+    "count": 19,
+    "Relation": {
+      "Type_Arabic": "بلاد",
+      "Type_English": "caliphate's country",
+      "Metropolitan": "قاسم",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf6f"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      3.049726,
+      36.766025
+    ]
+  },
+  "properties": {
+    "placename": "الجزائر",
+    "hebrewname": "אלגזאאר",
+    "englishname": "aljzaar",
+    "Description": "",
+    "count": 13,
+    "Relation": {
+      "Type_Arabic": "جزيرة",
+      "Type_English": "island",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf7f"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -4.769551311465296,
+      37.88706853981353
+    ]
+  },
+  "properties": {
+    "placename": "قرطبه",
+    "hebrewname": "קרטבה",
+    "englishname": "qrTbh",
+    "Description": "",
+    "count": 16,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf86"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      45.03667,
+      12.77944
+    ]
+  },
+  "properties": {
+    "placename": "عدن",
+    "hebrewname": "עדנ",
+    "englishname": "Cdn",
+    "Description": "",
+    "count": 21,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "بكر",
+      "District": "بحر الهند",
+      "Province": "اليمن"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf8d"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      68.23801,
+      32.68567
+    ]
+  },
+  "properties": {
+    "placename": "آمد",
+    "hebrewname": "אמד",
+    "englishname": "aamd",
+    "Description": "",
+    "count": 12,
+    "Relation": {
+      "Type_Arabic": "بلد",
+      "Type_English": "town",
+      "Metropolitan": "حمل",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf9d"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      48.12600532412682,
+      40.2632805161519
+    ]
+  },
+  "properties": {
+    "placename": "اذربيجان",
+    "hebrewname": "אדרביגאנ",
+    "englishname": "aVrbyjan",
+    "Description": "",
+    "count": 30,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfab"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      64.4009965666651,
+      39.77832259921541
+    ]
+  },
+  "properties": {
+    "placename": "بخارا",
+    "hebrewname": "בחארא",
+    "englishname": "bxara",
+    "Description": "",
+    "count": 53,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "شوال",
+      "District": "نسف",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfc3"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      47.21889503279032,
+      40.20880204455648
+    ]
+  },
+  "properties": {
+    "placename": "باجروان",
+    "hebrewname": "באגרואנ",
+    "englishname": "bajroan",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "قرية",
+      "Type_English": "village",
+      "Metropolitan": "ديار مضر",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfd9"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      51.323972974626955,
+      35.99876265959314
+    ]
+  },
+  "properties": {
+    "placename": "شلنك",
+    "hebrewname": "שלנכ",
+    "englishname": "shlnk",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfe1"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.580652253339494,
+      33.098706251156166
+    ]
+  },
+  "properties": {
+    "placename": "المدائن",
+    "hebrewname": "אלמדאאנ",
+    "englishname": "almdaan",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "قريتين",
+      "Type_English": "neighboring villages",
+      "Metropolitan": "الساباط",
+      "District": "حلب",
+      "Province": "الكوفة"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfe2"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.41963,
+      32.46367
+    ]
+  },
+  "properties": {
+    "placename": "الحلة",
+    "hebrewname": "אלחלה",
+    "englishname": "alHlah",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "ما",
+      "Type_English": "water",
+      "Metropolitan": "الجامعين",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfff"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      42.10784,
+      38.40115
+    ]
+  },
+  "properties": {
+    "placename": "بدليس",
+    "hebrewname": "בדליס",
+    "englishname": "bdlys",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "بلدة",
+      "Type_English": "town",
+      "Metropolitan": "دخل",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c011"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      39.57787837254586,
+      24.51631798144146
+    ]
+  },
+  "properties": {
+    "placename": "طيبة",
+    "hebrewname": "טיבה",
+    "englishname": "Tybah",
+    "Description": "",
+    "count": 29,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "برق",
+      "District": "يثرب",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c01c"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      33.79844,
+      31.13159
+    ]
+  },
+  "properties": {
+    "placename": "العريش",
+    "hebrewname": "אלעריש",
+    "englishname": "alCrysh",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c031"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      31.799187340436465,
+      30.719643851225065
+    ]
+  },
+  "properties": {
+    "placename": "فاقوس",
+    "hebrewname": "פאקוס",
+    "englishname": "faqos",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c032"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.725907009218375,
+      34.132612694138516
+    ]
+  },
+  "properties": {
+    "placename": "لبنان",
+    "hebrewname": "לבנאנ",
+    "englishname": "lbnan",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "جبل",
+      "Type_English": "mountain",
+      "Metropolitan": "العرج",
+      "District": "حمص",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bef4"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      32.779541384008304,
+      25.91837394526698
+    ]
+  },
+  "properties": {
+    "placename": "قوص",
+    "hebrewname": "קוצ",
+    "englishname": "qoS",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "عدن",
+      "District": "الصعيد",
+      "Province": "المغرب"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bee9"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.06222,
+      35.50472
+    ]
+  },
+  "properties": {
+    "placename": "المهدية",
+    "hebrewname": "אלמהדיה",
+    "englishname": "almhdyah",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "إفريقية"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf21"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      41.00817,
+      38.13708
+    ]
+  },
+  "properties": {
+    "placename": "ميافارقين",
+    "hebrewname": "מיאפארקינ",
+    "englishname": "myafarqyn",
+    "Description": "",
+    "count": 7,
+    "Relation": {
+      "Type_Arabic": "ما",
+      "Type_English": "water",
+      "Metropolitan": "ملك",
+      "District": "دجلة",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf5c"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.87292,
+      14.33011
+    ]
+  },
+  "properties": {
+    "placename": "الصعيد",
+    "hebrewname": "אלצעיד",
+    "englishname": "alSCyd",
+    "Description": "",
+    "count": 13,
+    "Relation": {
+      "Type_Arabic": "أرض",
+      "Type_English": "land",
+      "Metropolitan": "البهنسا",
+      "District": "النيل",
+      "Province": "مصر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf74"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.31551,
+      32.56909
+    ]
+  },
+  "properties": {
+    "placename": "الجيزة",
+    "hebrewname": "אלגיזה",
+    "englishname": "aljyzah",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "وادي",
+      "Type_English": "valley",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "مصر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf75"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      34.23807,
+      31.28781
+    ]
+  },
+  "properties": {
+    "placename": "رفح",
+    "hebrewname": "רפח",
+    "englishname": "rfH",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "منزل",
+      "Type_English": "small abodes",
+      "Metropolitan": "الداروم",
+      "District": "-",
+      "Province": "مصر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf81"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.29966,
+      13.18179
+    ]
+  },
+  "properties": {
+    "placename": "طور",
+    "hebrewname": "טור",
+    "englishname": "Tor",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "جبل",
+      "Type_English": "mountain",
+      "Metropolitan": "تستر",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfb2"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      34.41208,
+      28.48991760634215
+    ]
+  },
+  "properties": {
+    "placename": "مدين",
+    "hebrewname": "מדינ",
+    "englishname": "mdyn",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "قبيلة",
+      "Type_English": "tribe",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "مصر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfc9"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      30.55385442,
+      29.33135345
+    ]
+  },
+  "properties": {
+    "placename": "الفيوم",
+    "hebrewname": "אלפיומ",
+    "englishname": "alfyom",
+    "Description": "",
+    "count": 9,
+    "Relation": {
+      "Type_Arabic": "ناحية",
+      "Type_English": "district",
+      "Metropolitan": "هيت",
+      "District": "الفيوم",
+      "Province": "مصر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfdc"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      48.95922043,
+      31.4963472
+    ]
+  },
+  "properties": {
+    "placename": "خوزستان",
+    "hebrewname": "חוזסתאנ",
+    "englishname": "xozstan",
+    "Description": "",
+    "count": 34,
+    "Relation": {
+      "Type_Arabic": "بلاد",
+      "Type_English": "caliphate's country",
+      "Metropolitan": "سلمى",
+      "District": "دجلة",
+      "Province": "العراق"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfde"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.53924645,
+      32.63836306
+    ]
+  },
+  "properties": {
+    "placename": "بابل",
+    "hebrewname": "באבל",
+    "englishname": "babl",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "ناحية",
+      "Type_English": "district",
+      "Metropolitan": "سلام",
+      "District": "الباب",
+      "Province": "الكوفة"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfe3"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      37.003614,
+      35.989704
+    ]
+  },
+  "properties": {
+    "placename": "قنسرين",
+    "hebrewname": "קנסרינ",
+    "englishname": "qnsryn",
+    "Description": "",
+    "count": 7,
+    "Relation": {
+      "Type_Arabic": "كورة",
+      "Type_English": "town",
+      "Metropolitan": "رشيد",
+      "District": "مكة",
+      "Province": "اليمن"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c012"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.87391,
+      37.27442
+    ]
+  },
+  "properties": {
+    "placename": "بنزرت",
+    "hebrewname": "בנזרת",
+    "englishname": "bnzrt",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "حصون",
+      "Type_English": "forts",
+      "Metropolitan": "شطفورة",
+      "District": "-",
+      "Province": "إفريقية"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c03d"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      99.84696293115563,
+      2.4582536374769846
+    ]
+  },
+  "properties": {
+    "placename": "باغاى",
+    "hebrewname": "באעאא",
+    "englishname": "bagaa",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bef2"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.14574,
+      34.01485
+    ]
+  },
+  "properties": {
+    "placename": "بلد",
+    "hebrewname": "בלד",
+    "englishname": "bld",
+    "Description": "",
+    "count": 235,
+    "Relation": {
+      "Type_Arabic": "جبل",
+      "Type_English": "mountain",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bef7"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      45.0650451,
+      31.87305046
+    ]
+  },
+  "properties": {
+    "placename": "القادسية",
+    "hebrewname": "אלקאדסיה",
+    "englishname": "alqadsyah",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "موضع",
+      "Type_English": "place",
+      "Metropolitan": "القادسية",
+      "District": "جرى",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf03"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      59.74160306717731,
+      35.1247174598689
+    ]
+  },
+  "properties": {
+    "placename": "دريز",
+    "hebrewname": "דריז",
+    "englishname": "dryz",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf0a"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.023978321145927,
+      36.82156056977659
+    ]
+  },
+  "properties": {
+    "placename": "صنهاجة",
+    "hebrewname": "צנהאגה",
+    "englishname": "Snhajah",
+    "Description": "",
+    "count": 10,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf0b"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      43.90445,
+      15.50943
+    ]
+  },
+  "properties": {
+    "placename": "شبام",
+    "hebrewname": "שבאמ",
+    "englishname": "shbam",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "جبل",
+      "Type_English": "mountain",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "اليمن"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf29"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      43.47438616619933,
+      11.354210536263745
+    ]
+  },
+  "properties": {
+    "placename": "زيلع",
+    "hebrewname": "זילע",
+    "englishname": "zylC",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "جيل",
+      "Type_English": "descent",
+      "Metropolitan": "سودان",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf2d"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.181133120623024,
+      32.579675882618474
+    ]
+  },
+  "properties": {
+    "placename": "اللجون",
+    "hebrewname": "אללגונ",
+    "englishname": "alljon",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "بلد",
+      "Type_English": "town",
+      "Metropolitan": "الأردن",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf37"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      31.306920502143264,
+      30.009427418988096
+    ]
+  },
+  "properties": {
+    "placename": "المقطم",
+    "hebrewname": "אלמקטמ",
+    "englishname": "almqTm",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "جبل",
+      "Type_English": "mountain",
+      "Metropolitan": "الأكناف",
+      "District": "الصعيد",
+      "Province": "البيداء"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf3b"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      33.23393174,
+      35.06317464
+    ]
+  },
+  "properties": {
+    "placename": "قبرس",
+    "hebrewname": "קברס",
+    "englishname": "qbrs",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "جزيرة",
+      "Type_English": "island",
+      "Metropolitan": "بحر روم",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf43"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      31.18579118573178,
+      27.179399440914526
+    ]
+  },
+  "properties": {
+    "placename": "اسيوط",
+    "hebrewname": "אסיוט",
+    "englishname": "asyoT",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf53"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      31.233418793133115,
+      30.00070535764183
+    ]
+  },
+  "properties": {
+    "placename": "الفسطاط",
+    "hebrewname": "אלפסטאט",
+    "englishname": "alfsTaT",
+    "Description": "",
+    "count": 20,
+    "Relation": {
+      "Type_Arabic": "لغة",
+      "Type_English": "language",
+      "Metropolitan": "الدار",
+      "District": "الصعيد",
+      "Province": "مصر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf59"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      53.12569583074665,
+      28.43388568625951
+    ]
+  },
+  "properties": {
+    "placename": "كارزين",
+    "hebrewname": "כארזינ",
+    "englishname": "karzyn",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "بلد",
+      "Type_English": "town",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "فارس"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf76"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.21633,
+      31.76904
+    ]
+  },
+  "properties": {
+    "placename": "المقدس",
+    "hebrewname": "אלמקדס",
+    "englishname": "almqds",
+    "Description": "",
+    "count": 16,
+    "Relation": {
+      "Type_Arabic": "ما",
+      "Type_English": "water",
+      "Metropolitan": "الأردن",
+      "District": "فلسطين",
+      "Province": "مصر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf84"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -4.084704319696752,
+      39.37069944219533
+    ]
+  },
+  "properties": {
+    "placename": "الاندلس",
+    "hebrewname": "אלאנדלס",
+    "englishname": "alandls",
+    "Description": "",
+    "count": 45,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf85"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      58.87033297,
+      35.48693989
+    ]
+  },
+  "properties": {
+    "placename": "خراسان",
+    "hebrewname": "חראסאנ",
+    "englishname": "xrasan",
+    "Description": "",
+    "count": 115,
+    "Relation": {
+      "Type_Arabic": "ما",
+      "Type_English": "water",
+      "Metropolitan": "الدار",
+      "District": "السواد",
+      "Province": "ما وراء النهر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf8b"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -2.47278,
+      42.35837
+    ]
+  },
+  "properties": {
+    "placename": "البيضاء",
+    "hebrewname": "אלבידאא",
+    "englishname": "albyDaa",
+    "Description": "",
+    "count": 9,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "إصطخر",
+      "District": "بغداد",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfaa"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.00771234,
+      31.4468021
+    ]
+  },
+  "properties": {
+    "placename": "إسرائيل",
+    "hebrewname": "איסראאיל",
+    "englishname": "Asraayl",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfac"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.41659145,
+      32.67120674
+    ]
+  },
+  "properties": {
+    "placename": "طرابلس",
+    "hebrewname": "טראבלס",
+    "englishname": "Trabls",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "كورة",
+      "Type_English": "town",
+      "Metropolitan": "الكنيسة",
+      "District": "برقة",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfae"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      103.8310775,
+      36.56380228
+    ]
+  },
+  "properties": {
+    "placename": "الصين",
+    "hebrewname": "אלצינ",
+    "englishname": "alSyn",
+    "Description": "",
+    "count": 31,
+    "Relation": {
+      "Type_Arabic": "بلاد",
+      "Type_English": "caliphate's country",
+      "Metropolitan": "باب الأبواب",
+      "District": "الباب",
+      "Province": "اليمن"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfd0"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      51.336364666462934,
+      29.565243113866234
+    ]
+  },
+  "properties": {
+    "placename": "خشت",
+    "hebrewname": "חשת",
+    "englishname": "xsht",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfd8"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -6.79318,
+      37.4257
+    ]
+  },
+  "properties": {
+    "placename": "بياس",
+    "hebrewname": "ביאס",
+    "englishname": "byas",
+    "Description": "",
+    "count": 7,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfeb"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      47.59909891,
+      15.90146141
+    ]
+  },
+  "properties": {
+    "placename": "اليمن",
+    "hebrewname": "אלימנ",
+    "englishname": "alymn",
+    "Description": "",
+    "count": 40,
+    "Relation": {
+      "Type_Arabic": "أرض",
+      "Type_English": "land",
+      "Metropolitan": "بم",
+      "District": "صنعاء",
+      "Province": "اليمن"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c007"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      31.235976101992062,
+      30.04685422155608
+    ]
+  },
+  "properties": {
+    "placename": "القاهرة",
+    "hebrewname": "אלקאהרה",
+    "englishname": "alqahrah",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "-",
+      "District": "جنب",
+      "Province": "مصر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c017"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      48.09472,
+      29.14583
+    ]
+  },
+  "properties": {
+    "placename": "الرقة",
+    "hebrewname": "אלרקה",
+    "englishname": "alrqah",
+    "Description": "",
+    "count": 16,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "حران",
+      "District": "بغداد",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c018"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      41.62184945,
+      32.96809023
+    ]
+  },
+  "properties": {
+    "placename": "الانبار",
+    "hebrewname": "אלאנבאר",
+    "englishname": "alanbar",
+    "Description": "",
+    "count": 13,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c04c"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.20538483193095,
+      36.953707149362046
+    ]
+  },
+  "properties": {
+    "placename": "ارزن",
+    "hebrewname": "ארזנ",
+    "englishname": "arzn",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bee8"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      58.7094347,
+      23.23485188
+    ]
+  },
+  "properties": {
+    "placename": "مسقط",
+    "hebrewname": "מסקט",
+    "englishname": "msqT",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "واد",
+      "Type_English": "valley",
+      "Metropolitan": "بني سعد",
+      "District": "-",
+      "Province": "البصرة"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36beef"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      42.313516590426524,
+      38.81477614640163
+    ]
+  },
+  "properties": {
+    "placename": "خرشنه",
+    "hebrewname": "חרשנה",
+    "englishname": "xrshnh",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36befd"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.637714002385826,
+      30.001648919660486
+    ]
+  },
+  "properties": {
+    "placename": "ماسة",
+    "hebrewname": "מאסה",
+    "englishname": "masah",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf07"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      40.07055,
+      36.85034
+    ]
+  },
+  "properties": {
+    "placename": "رأس",
+    "hebrewname": "ראס",
+    "englishname": "rAs",
+    "Description": "",
+    "count": 42,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf25"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.0144121838736,
+      33.37854472264595
+    ]
+  },
+  "properties": {
+    "placename": "النهرين",
+    "hebrewname": "אלנהרינ",
+    "englishname": "alnhryn",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf2b"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -6.41667,
+      38.41667
+    ]
+  },
+  "properties": {
+    "placename": "بطليوس",
+    "hebrewname": "בטליוס",
+    "englishname": "bTlyos",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "ماردة",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf47"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      61.08990614676912,
+      41.29895749580418
+    ]
+  },
+  "properties": {
+    "placename": "هزاراسب",
+    "hebrewname": "הזאראסב",
+    "englishname": "hzarasb",
+    "Description": "",
+    "count": 7,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf54"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.16579,
+      36.81897
+    ]
+  },
+  "properties": {
+    "placename": "تونس",
+    "hebrewname": "תונס",
+    "englishname": "tons",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "شطفورة",
+      "District": "-",
+      "Province": "إفريقية"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf6c"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      48.28987,
+      42.06779
+    ]
+  },
+  "properties": {
+    "placename": "دربند",
+    "hebrewname": "דרבנד",
+    "englishname": "drbnd",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "نهر",
+      "Type_English": "river",
+      "Metropolitan": "شروان",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf78"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.3006518,
+      33.5123279
+    ]
+  },
+  "properties": {
+    "placename": "الغوطة",
+    "hebrewname": "אלעוטה",
+    "englishname": "algoTah",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "كورة",
+      "Type_English": "town",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf82"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      54.3675,
+      31.89722
+    ]
+  },
+  "properties": {
+    "placename": "يزد",
+    "hebrewname": "יזד",
+    "englishname": "yzd",
+    "Description": "",
+    "count": 17,
+    "Relation": {
+      "Type_Arabic": "ناحية",
+      "Type_English": "district",
+      "Metropolitan": "إصطخر",
+      "District": "نيسابور",
+      "Province": "فارس"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf8f"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      54.87932671326925,
+      30.688630842040862
+    ]
+  },
+  "properties": {
+    "placename": "دهج",
+    "hebrewname": "דהג",
+    "englishname": "dhj",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf95"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      56.24774,
+      26.17993
+    ]
+  },
+  "properties": {
+    "placename": "خصب",
+    "hebrewname": "חצב",
+    "englishname": "xSb",
+    "Description": "",
+    "count": 13,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf97"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      69.83045,
+      37.12604
+    ]
+  },
+  "properties": {
+    "placename": "رستاق",
+    "hebrewname": "רסתאק",
+    "englishname": "rstaq",
+    "Description": "",
+    "count": 138,
+    "Relation": {
+      "Type_Arabic": "رستاق",
+      "Type_English": "cultivated populated land",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "كرمان"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfb6"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.741335992203444,
+      34.7554511594365
+    ]
+  },
+  "properties": {
+    "placename": "سفاقس",
+    "hebrewname": "ספאקס",
+    "englishname": "sfaqs",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "الرد",
+      "District": "-",
+      "Province": "إفريقية"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfb8"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -4.7791517,
+      37.8847267
+    ]
+  },
+  "properties": {
+    "placename": "قرطبة",
+    "hebrewname": "קרטבה",
+    "englishname": "qrTbah",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "قاسم",
+      "District": "-",
+      "Province": "المغرب"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfc0"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      42.42167731891093,
+      37.03607331107935
+    ]
+  },
+  "properties": {
+    "placename": "فيشابور",
+    "hebrewname": "פישאבור",
+    "englishname": "fyshabor",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "بليد",
+      "Type_English": "small town",
+      "Metropolitan": "جزيرة ابن عمر",
+      "District": "الموصل",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfcb"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      69.36881,
+      33.69056
+    ]
+  },
+  "properties": {
+    "placename": "كرم",
+    "hebrewname": "כרמ",
+    "englishname": "krm",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "موضع",
+      "Type_English": "place",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfcc"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      66.99772376643558,
+      24.855828584328247
+    ]
+  },
+  "properties": {
+    "placename": "قوسره",
+    "hebrewname": "קוסרה",
+    "englishname": "qosrh",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfd7"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.018224725352601,
+      42.8871006513225
+    ]
+  },
+  "properties": {
+    "placename": "جليقية",
+    "hebrewname": "גליקיה",
+    "englishname": "jlyqyah",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "بلاد",
+      "Type_English": "caliphate's country",
+      "Metropolitan": "البحر المحيط",
+      "District": "-",
+      "Province": "الروم"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfda"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      68.69289529509958,
+      37.38971316533783
+    ]
+  },
+  "properties": {
+    "placename": "الوخش",
+    "hebrewname": "אלוחש",
+    "englishname": "aloxsh",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bffd"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.06765387,
+      31.9759951
+    ]
+  },
+  "properties": {
+    "placename": "المرج",
+    "hebrewname": "אלמרג",
+    "englishname": "almrj",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c005"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.59434,
+      35.89239
+    ]
+  },
+  "properties": {
+    "placename": "مرسى",
+    "hebrewname": "מרסא",
+    "englishname": "mrsa",
+    "Description": "",
+    "count": 21,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c021"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.968001431058296,
+      29.74411076500686
+    ]
+  },
+  "properties": {
+    "placename": "تامدفوس",
+    "hebrewname": "תאמדפוס",
+    "englishname": "tamdfos",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "جزائر",
+      "Type_English": "islands",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c02f"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      43.96833,
+      13.39028
+    ]
+  },
+  "properties": {
+    "placename": "نجد",
+    "hebrewname": "נגד",
+    "englishname": "njd",
+    "Description": "",
+    "count": 10,
+    "Relation": {
+      "Type_Arabic": "لغة",
+      "Type_English": "language",
+      "Metropolitan": "عجب",
+      "District": "مهرة",
+      "Province": "غطفان"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c03c"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      54.49079533,
+      18.57585269
+    ]
+  },
+  "properties": {
+    "placename": "ظفار",
+    "hebrewname": "זפאר",
+    "englishname": "Zfar",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "وقف",
+      "District": "بحر الهند",
+      "Province": "اليمن"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c04a"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      34.75224,
+      32.05043
+    ]
+  },
+  "properties": {
+    "placename": "يافا",
+    "hebrewname": "יאפא",
+    "englishname": "yafa",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "-",
+      "District": "فلسطين",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c04d"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.888849223163994,
+      36.63701832277297
+    ]
+  },
+  "properties": {
+    "placename": "شومان",
+    "hebrewname": "שומאנ",
+    "englishname": "shoman",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "ترمذ",
+      "District": "صغانيان",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bee5"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      48.04881,
+      29.3032
+    ]
+  },
+  "properties": {
+    "placename": "بيان",
+    "hebrewname": "ביאנ",
+    "englishname": "byan",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "صقع",
+      "Type_English": "region",
+      "Metropolitan": "-",
+      "District": "السواد",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bef0"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      56.44972434766654,
+      27.073119755033034
+    ]
+  },
+  "properties": {
+    "placename": "هرمز",
+    "hebrewname": "הרמז",
+    "englishname": "hrmz",
+    "Description": "",
+    "count": 8,
+    "Relation": {
+      "Type_Arabic": "فرضة",
+      "Type_English": "port",
+      "Metropolitan": "خور",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf00"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      31.30084,
+      29.84144
+    ]
+  },
+  "properties": {
+    "placename": "حلوان",
+    "hebrewname": "חלואנ",
+    "englishname": "Hloan",
+    "Description": "",
+    "count": 17,
+    "Relation": {
+      "Type_Arabic": "قرية",
+      "Type_English": "village",
+      "Metropolitan": "مزج",
+      "District": "همذان",
+      "Province": "العراق"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf23"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      51.14071783691989,
+      36.48954295571965
+    ]
+  },
+  "properties": {
+    "placename": "الروذان",
+    "hebrewname": "אלרודאנ",
+    "englishname": "alroVan",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf30"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      57.4575947218881,
+      27.53673516929437
+    ]
+  },
+  "properties": {
+    "placename": "نودز",
+    "hebrewname": "נודז",
+    "englishname": "nodz",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "قلعة",
+      "Type_English": "castle",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "أذربيجان"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf34"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      50.314225268684005,
+      29.24778154227889
+    ]
+  },
+  "properties": {
+    "placename": "خارك",
+    "hebrewname": "חארכ",
+    "englishname": "xark",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "جبل",
+      "Type_English": "mountain",
+      "Metropolitan": "جنابة",
+      "District": "-",
+      "Province": "فارس"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf41"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      33.68665838081514,
+      2.5004688539460096
+    ]
+  },
+  "properties": {
+    "placename": "مارا",
+    "hebrewname": "מארא",
+    "englishname": "mara",
+    "Description": "",
+    "count": 10,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf57"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.15722,
+      36.20655
+    ]
+  },
+  "properties": {
+    "placename": "انطاكيه",
+    "hebrewname": "אנטאכיה",
+    "englishname": "anTakyh",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf5b"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      47.53113714,
+      40.28705839
+    ]
+  },
+  "properties": {
+    "placename": "أذربيجان",
+    "hebrewname": "אדרביגאנ",
+    "englishname": "AVrbyjan",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "إقليم",
+      "Type_English": "islamic longitude",
+      "Metropolitan": "شهرزور",
+      "District": "-",
+      "Province": "أرمن"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf62"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      45.763871674597766,
+      23.647118367090062
+    ]
+  },
+  "properties": {
+    "placename": "السيح",
+    "hebrewname": "אלסיח",
+    "englishname": "alsyH",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf92"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      45.29431278469087,
+      31.31260486118472
+    ]
+  },
+  "properties": {
+    "placename": "السماوة",
+    "hebrewname": "אלסמאוה",
+    "englishname": "alsmaoah",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "أرض",
+      "Type_English": "land",
+      "Metropolitan": "الكلب",
+      "District": "-",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfa0"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      39.22321,
+      38.67431
+    ]
+  },
+  "properties": {
+    "placename": "معمورة",
+    "hebrewname": "מעמורה",
+    "englishname": "mCmorah",
+    "Description": "",
+    "count": 10,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfa7"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      47.433098879668954,
+      34.58347351638484
+    ]
+  },
+  "properties": {
+    "placename": "الدينور",
+    "hebrewname": "אלדינור",
+    "englishname": "aldynor",
+    "Description": "",
+    "count": 9,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfaf"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      57.8316822635963,
+      28.145030476691378
+    ]
+  },
+  "properties": {
+    "placename": "الديلم",
+    "hebrewname": "אלדילמ",
+    "englishname": "aldylm",
+    "Description": "",
+    "count": 31,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfb1"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      43.48228825141892,
+      14.55101931866249
+    ]
+  },
+  "properties": {
+    "placename": "تهامة",
+    "hebrewname": "תהאמה",
+    "englishname": "thamah",
+    "Description": "",
+    "count": 11,
+    "Relation": {
+      "Type_Arabic": "أرض",
+      "Type_English": "land",
+      "Metropolitan": "وادي نخلة اليمانية",
+      "District": "مكة",
+      "Province": "اليمن"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfbc"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      31.24292619959544,
+      30.04336515096489
+    ]
+  },
+  "properties": {
+    "placename": "الطاحونة",
+    "hebrewname": "אלטאחונה",
+    "englishname": "alTaHonah",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "موضع",
+      "Type_English": "place",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfdf"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.21806,
+      34.00583
+    ]
+  },
+  "properties": {
+    "placename": "بعلبك",
+    "hebrewname": "בעלבכ",
+    "englishname": "bClbk",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "معروف",
+      "District": "دمشق",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c006"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      31.72290673,
+      31.37358241
+    ]
+  },
+  "properties": {
+    "placename": "دمياط",
+    "hebrewname": "דמיאט",
+    "englishname": "dmyaT",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "ثغر",
+      "Type_English": "frontier town",
+      "Metropolitan": "نهر أشموم",
+      "District": "ثغور الإسلام",
+      "Province": "مصر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c016"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      67.69826,
+      36.69736
+    ]
+  },
+  "properties": {
+    "placename": "خلم",
+    "hebrewname": "חלמ",
+    "englishname": "xlm",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "بلاد",
+      "Type_English": "caliphate's country",
+      "Metropolitan": "-",
+      "District": "بلخ",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c029"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      51.59796973317743,
+      33.533833308498124
+    ]
+  },
+  "properties": {
+    "placename": "سروستان",
+    "hebrewname": "סרוסתאנ",
+    "englishname": "srostan",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "بلد",
+      "Type_English": "town",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "فارس"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c02e"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      38.04165,
+      35.96577
+    ]
+  },
+  "properties": {
+    "placename": "بالس",
+    "hebrewname": "באלס",
+    "englishname": "bals",
+    "Description": "",
+    "count": 18,
+    "Relation": {
+      "Type_Arabic": "قرى",
+      "Type_English": "villages",
+      "Metropolitan": "-",
+      "District": "حلب",
+      "Province": "الروم"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bee3"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      56.70765,
+      24.35022
+    ]
+  },
+  "properties": {
+    "placename": "صحار",
+    "hebrewname": "צחאר",
+    "englishname": "SHar",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "ما",
+      "Type_English": "water",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "عمان"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36befe"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.85745,
+      33.87576
+    ]
+  },
+  "properties": {
+    "placename": "حومة",
+    "hebrewname": "חומה",
+    "englishname": "Homah",
+    "Description": "",
+    "count": 10,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf04"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      43.4973,
+      25.86944
+    ]
+  },
+  "properties": {
+    "placename": "الرس",
+    "hebrewname": "אלרס",
+    "englishname": "alrs",
+    "Description": "",
+    "count": 11,
+    "Relation": {
+      "Type_Arabic": "بئر",
+      "Type_English": "well",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf09"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      62.463205694351664,
+      41.60526787865504
+    ]
+  },
+  "properties": {
+    "placename": "خوارزم",
+    "hebrewname": "חוארזמ",
+    "englishname": "xoarzm",
+    "Description": "",
+    "count": 50,
+    "Relation": {
+      "Type_Arabic": "ناحية",
+      "Type_English": "district",
+      "Metropolitan": "الجرجانية",
+      "District": "جرى",
+      "Province": "خراسان"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf0c"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.90858,
+      34.68139
+    ]
+  },
+  "properties": {
+    "placename": "وجدة",
+    "hebrewname": "וגדה",
+    "englishname": "ojdah",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf1b"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -3.79028,
+      37.76922
+    ]
+  },
+  "properties": {
+    "placename": "جيان",
+    "hebrewname": "גיאנ",
+    "englishname": "jyan",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "كورة",
+      "Type_English": "town",
+      "Metropolitan": "بيرة",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf27"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      40.41583,
+      21.27028
+    ]
+  },
+  "properties": {
+    "placename": "الطائف",
+    "hebrewname": "אלטאאפ",
+    "englishname": "alTaaf",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "ما",
+      "Type_English": "water",
+      "Metropolitan": "لية",
+      "District": "مكة",
+      "Province": "اليمن"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf28"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      47.13203712543094,
+      38.08432310868883
+    ]
+  },
+  "properties": {
+    "placename": "مهروبان",
+    "hebrewname": "מהרובאנ",
+    "englishname": "mhroban",
+    "Description": "",
+    "count": 8,
+    "Relation": {
+      "Type_Arabic": "ساحل",
+      "Type_English": "coast",
+      "Metropolitan": "جنابة",
+      "District": "همذان",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf2f"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      61.1577,
+      36.5449
+    ]
+  },
+  "properties": {
+    "placename": "سرخس",
+    "hebrewname": "סרחס",
+    "englishname": "srxs",
+    "Description": "",
+    "count": 16,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "الواعظ",
+      "District": "هراة",
+      "Province": "خراسان"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf40"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.5645228268092355,
+      33.54100569965201
+    ]
+  },
+  "properties": {
+    "placename": "سبتة",
+    "hebrewname": "סבתה",
+    "englishname": "sbtah",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "بلدة",
+      "Type_English": "town",
+      "Metropolitan": "الدخول",
+      "District": "-",
+      "Province": "المغرب"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf4a"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      52.342328300188974,
+      27.66799656682619
+    ]
+  },
+  "properties": {
+    "placename": "سيراف",
+    "hebrewname": "סיראפ",
+    "englishname": "syraf",
+    "Description": "",
+    "count": 11,
+    "Relation": {
+      "Type_Arabic": "ماء",
+      "Type_English": "water",
+      "Metropolitan": "بحر فارس",
+      "District": "-",
+      "Province": "فارس"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf4f"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      52.50661246542362,
+      30.179187040031348
+    ]
+  },
+  "properties": {
+    "placename": "ابرج",
+    "hebrewname": "אברג",
+    "englishname": "abrj",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf51"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      52.57107693122869,
+      27.490135391743852
+    ]
+  },
+  "properties": {
+    "placename": "نابند",
+    "hebrewname": "נאבנד",
+    "englishname": "nabnd",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf60"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      84.491394524674,
+      40.42216203829818
+    ]
+  },
+  "properties": {
+    "placename": "تركستان",
+    "hebrewname": "תרכסתאנ",
+    "englishname": "trkstan",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "جامع",
+      "Type_English": "mosque",
+      "Metropolitan": "ترك",
+      "District": "-",
+      "Province": "ما وراء النهر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf61"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      37.95495,
+      36.52815
+    ]
+  },
+  "properties": {
+    "placename": "منبج",
+    "hebrewname": "מנבג",
+    "englishname": "mnbj",
+    "Description": "",
+    "count": 18,
+    "Relation": {
+      "Type_Arabic": "بلد",
+      "Type_English": "town",
+      "Metropolitan": "الشركة",
+      "District": "السور",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf65"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.11516,
+      31.42013
+    ]
+  },
+  "properties": {
+    "placename": "صالح",
+    "hebrewname": "צאלח",
+    "englishname": "SalH",
+    "Description": "",
+    "count": 24,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf66"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.4657,
+      30.25125
+    ]
+  },
+  "properties": {
+    "placename": "الطيبة",
+    "hebrewname": "אלטיבה",
+    "englishname": "alTybah",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "قريتان",
+      "Type_English": "neighboring villages",
+      "Metropolitan": "-",
+      "District": "الصعيد",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf71"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -15.95798,
+      23.68477
+    ]
+  },
+  "properties": {
+    "placename": "الداخلة",
+    "hebrewname": "אלדאחלה",
+    "englishname": "aldaxlah",
+    "Description": "",
+    "count": 30,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf79"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      42.47463029,
+      36.02265052
+    ]
+  },
+  "properties": {
+    "placename": "نينوى",
+    "hebrewname": "נינוא",
+    "englishname": "nynoa",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "قرية",
+      "Type_English": "village",
+      "Metropolitan": "خازر",
+      "District": "الموصل",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf88"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      49.391820195994654,
+      22.227712037103014
+    ]
+  },
+  "properties": {
+    "placename": "الاحساء",
+    "hebrewname": "אלאחסאא",
+    "englishname": "alaHsaa",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfa4"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.18688,
+      31.63406
+    ]
+  },
+  "properties": {
+    "placename": "رباح",
+    "hebrewname": "רבאח",
+    "englishname": "rbaH",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "ما",
+      "Type_English": "water",
+      "Metropolitan": "طليطلة",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfb3"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      39.529813184505805,
+      24.527562792414532
+    ]
+  },
+  "properties": {
+    "placename": "المدينة",
+    "hebrewname": "אלמדינה",
+    "englishname": "almdynah",
+    "Description": "",
+    "count": 210,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfb5"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      45.26667,
+      13.93333
+    ]
+  },
+  "properties": {
+    "placename": "بكر",
+    "hebrewname": "בכר",
+    "englishname": "bkr",
+    "Description": "",
+    "count": 12,
+    "Relation": {
+      "Type_Arabic": "واد",
+      "Type_English": "valley",
+      "Metropolitan": "جدود",
+      "District": "مكة",
+      "Province": "أسافل"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfe4"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      59.50875521021797,
+      36.48114679948287
+    ]
+  },
+  "properties": {
+    "placename": "طوس",
+    "hebrewname": "טוס",
+    "englishname": "Tos",
+    "Description": "",
+    "count": 9,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "الخرج",
+      "District": "-",
+      "Province": "خراسان"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfe5"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.89924514184139,
+      41.672650766655785
+    ]
+  },
+  "properties": {
+    "placename": "تفليس",
+    "hebrewname": "תפליס",
+    "englishname": "tflys",
+    "Description": "",
+    "count": 9,
+    "Relation": {
+      "Type_Arabic": "قصبة",
+      "Type_English": "kasbah (city center)",
+      "Metropolitan": "حارة",
+      "District": "جرزان",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfec"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      50.12413456741812,
+      26.393247827757932
+    ]
+  },
+  "properties": {
+    "placename": "هجر",
+    "hebrewname": "הגר",
+    "englishname": "hjr",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "موضع",
+      "Type_English": "place",
+      "Metropolitan": "الأشعر",
+      "District": "البحرين",
+      "Province": "المغرب"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bff5"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      49.63555455388834,
+      33.38802290002871
+    ]
+  },
+  "properties": {
+    "placename": "سنج",
+    "hebrewname": "סנג",
+    "englishname": "snj",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "مرو",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c02b"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -2.4390935585440983,
+      36.91517402700565
+    ]
+  },
+  "properties": {
+    "placename": "بجانه",
+    "hebrewname": "בגאנה",
+    "englishname": "bjanh",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c03a"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.27793722,
+      33.51557549
+    ]
+  },
+  "properties": {
+    "placename": "دمشق",
+    "hebrewname": "דמשק",
+    "englishname": "dmshq",
+    "Description": "",
+    "count": 26,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "شهد",
+      "District": "دمشق",
+      "Province": "مصر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36beea"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      47.39757414,
+      30.39626912
+    ]
+  },
+  "properties": {
+    "placename": "البصرة",
+    "hebrewname": "אלבצרה",
+    "englishname": "albSrah",
+    "Description": "",
+    "count": 65,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "رميلة",
+      "District": "دجلة",
+      "Province": "البصرة"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36beec"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      50.01293879928027,
+      26.573835749174513
+    ]
+  },
+  "properties": {
+    "placename": "القطيف",
+    "hebrewname": "אלקטיפ",
+    "englishname": "alqTyf",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "العلاء",
+      "District": "البحرين",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36beee"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.02504448,
+      35.56810815
+    ]
+  },
+  "properties": {
+    "placename": "اللاذقية",
+    "hebrewname": "אללאדקיה",
+    "englishname": "allaVqyah",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "بلد",
+      "Type_English": "town",
+      "Metropolitan": "بحر شام",
+      "District": "حمص",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36befb"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      61.86037,
+      30.95962
+    ]
+  },
+  "properties": {
+    "placename": "زرنج",
+    "hebrewname": "זרנג",
+    "englishname": "zrnj",
+    "Description": "",
+    "count": 9,
+    "Relation": {
+      "Type_Arabic": "قصبة",
+      "Type_English": "kasbah (city center)",
+      "Metropolitan": "ملك",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf06"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      56.05285212,
+      20.55560458
+    ]
+  },
+  "properties": {
+    "placename": "عمان",
+    "hebrewname": "עמאנ",
+    "englishname": "Cman",
+    "Description": "",
+    "count": 20,
+    "Relation": {
+      "Type_Arabic": "كورة",
+      "Type_English": "town",
+      "Metropolitan": "أطراف",
+      "District": "الشحر",
+      "Province": "البصرة"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf08"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      59.96459381863893,
+      28.964289891537028
+    ]
+  },
+  "properties": {
+    "placename": "سجستان",
+    "hebrewname": "סגסתאנ",
+    "englishname": "sjstan",
+    "Description": "",
+    "count": 59,
+    "Relation": {
+      "Type_Arabic": "ناحية",
+      "Type_English": "district",
+      "Metropolitan": "بست",
+      "District": "هراة",
+      "Province": "كرمان"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf3a"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      38.49718600496249,
+      37.614010468779846
+    ]
+  },
+  "properties": {
+    "placename": "شمشاط",
+    "hebrewname": "שמשאט",
+    "englishname": "shmshaT",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "خرتبرت",
+      "District": "الفرات",
+      "Province": "الروم"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf3d"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      45.31852,
+      34.62805
+    ]
+  },
+  "properties": {
+    "placename": "كلار",
+    "hebrewname": "כלאר",
+    "englishname": "klar",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "جبال طبرستان",
+      "District": "الجو",
+      "Province": "الري"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf49"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      54.426387976391055,
+      36.84203965011881
+    ]
+  },
+  "properties": {
+    "placename": "جرجان",
+    "hebrewname": "גרגאנ",
+    "englishname": "jrjan",
+    "Description": "",
+    "count": 35,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "نور",
+      "District": "الباب",
+      "Province": "السهل"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf52"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.19470214843749,
+      31.763202209896075
+    ]
+  },
+  "properties": {
+    "placename": "فلسطين",
+    "hebrewname": "פלסטינ",
+    "englishname": "flsTyn",
+    "Description": "",
+    "count": 19,
+    "Relation": {
+      "Type_Arabic": "أرض",
+      "Type_English": "land",
+      "Metropolitan": "الرملة",
+      "District": "-",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf9e"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      79.61702628,
+      23.0103574
+    ]
+  },
+  "properties": {
+    "placename": "الهند",
+    "hebrewname": "אלהנד",
+    "englishname": "alhnd",
+    "Description": "",
+    "count": 47,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfa8"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.410848872557494,
+      32.99818305609977
+    ]
+  },
+  "properties": {
+    "placename": "جرمق",
+    "hebrewname": "גרמק",
+    "englishname": "jrmq",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "بلدة",
+      "Type_English": "town",
+      "Metropolitan": "صيداء",
+      "District": "أصبهان",
+      "Province": "فارس"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfc1"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.24803761934169,
+      33.50207076427199
+    ]
+  },
+  "properties": {
+    "placename": "المزة",
+    "hebrewname": "אלמזה",
+    "englishname": "almzah",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "قرية",
+      "Type_English": "village",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfc4"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.73548651466688,
+      35.59381725005857
+    ]
+  },
+  "properties": {
+    "placename": "شهرزور",
+    "hebrewname": "שהרזור",
+    "englishname": "shhrzor",
+    "Description": "",
+    "count": 9,
+    "Relation": {
+      "Type_Arabic": "كورة",
+      "Type_English": "town",
+      "Metropolitan": "السلق",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfd2"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      28.856247813939017,
+      41.16782446524292
+    ]
+  },
+  "properties": {
+    "placename": "القسطنطينيه",
+    "hebrewname": "אלקסטנטיניה",
+    "englishname": "alqsTnTynyh",
+    "Description": "",
+    "count": 33,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfd5"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.0982,
+      33.88146
+    ]
+  },
+  "properties": {
+    "placename": "قابس",
+    "hebrewname": "קאבס",
+    "englishname": "qabs",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "منازل",
+      "Type_English": "abodes",
+      "Metropolitan": "حاجة",
+      "District": "البادية",
+      "Province": "إفريقية"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfd6"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      65.78654462745541,
+      36.80964244105315
+    ]
+  },
+  "properties": {
+    "placename": "الجوزجان",
+    "hebrewname": "אלגוזגאנ",
+    "englishname": "aljozjan",
+    "Description": "",
+    "count": 14,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfdd"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.16931425782983,
+      33.11872597243505
+    ]
+  },
+  "properties": {
+    "placename": "مهران",
+    "hebrewname": "מהראנ",
+    "englishname": "mhran",
+    "Description": "",
+    "count": 26,
+    "Relation": {
+      "Type_Arabic": "واد",
+      "Type_English": "valley",
+      "Metropolitan": "ملتان",
+      "District": "حد سمندور",
+      "Province": "مصر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfe9"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      25.14586562456493,
+      42.50941865125021
+    ]
+  },
+  "properties": {
+    "placename": "البلغار",
+    "hebrewname": "אלבלעאר",
+    "englishname": "alblgar",
+    "Description": "",
+    "count": 22,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bff4"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.403090395768,
+      33.317005519953746
+    ]
+  },
+  "properties": {
+    "placename": "الكرخ",
+    "hebrewname": "אלכרח",
+    "englishname": "alkrx",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "كرخ",
+      "Type_English": "metropolitan area",
+      "Metropolitan": "بقر",
+      "District": "-",
+      "Province": "العراق"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c009"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      38.49238025043286,
+      37.60585122733672
+    ]
+  },
+  "properties": {
+    "placename": "سميساط",
+    "hebrewname": "סמיסאט",
+    "englishname": "smysaT",
+    "Description": "",
+    "count": 13,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "شق",
+      "District": "الفرات",
+      "Province": "الروم"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c00b"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      51.765384060047275,
+      32.643020072074
+    ]
+  },
+  "properties": {
+    "placename": "سمور",
+    "hebrewname": "סמור",
+    "englishname": "smor",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c01f"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      38.80076034774248,
+      37.16793769367884
+    ]
+  },
+  "properties": {
+    "placename": "الرها",
+    "hebrewname": "אלרהא",
+    "englishname": "alrha",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c027"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.88441275947719,
+      36.519190006526166
+    ]
+  },
+  "properties": {
+    "placename": "مائين",
+    "hebrewname": "מאאינ",
+    "englishname": "maayn",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "بلد",
+      "Type_English": "town",
+      "Metropolitan": "شيراز",
+      "District": "-",
+      "Province": "فارس"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c03e"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      5.41373,
+      36.19112
+    ]
+  },
+  "properties": {
+    "placename": "سطيف",
+    "hebrewname": "סטיפ",
+    "englishname": "sTyf",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "جبال كتامة",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c046"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      5.607682617165169,
+      35.55593225337983
+    ]
+  },
+  "properties": {
+    "placename": "نقاوس",
+    "hebrewname": "נקאוס",
+    "englishname": "nqaos",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36beeb"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      49.29233058,
+      16.6122021
+    ]
+  },
+  "properties": {
+    "placename": "حضرموت",
+    "hebrewname": "חדרמות",
+    "englishname": "HDrmot",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "موضع",
+      "Type_English": "place",
+      "Metropolitan": "الذراع",
+      "District": "-",
+      "Province": "مصر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36befc"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      53.93126011751853,
+      32.79138456344915
+    ]
+  },
+  "properties": {
+    "placename": "سياه",
+    "hebrewname": "סיאה",
+    "englishname": "syah",
+    "Description": "",
+    "count": 19,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bef9"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.188850687618162,
+      32.87623207671457
+    ]
+  },
+  "properties": {
+    "placename": "اطرابلس",
+    "hebrewname": "אטראבלס",
+    "englishname": "aTrabls",
+    "Description": "",
+    "count": 10,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36befa"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.26444,
+      36.45028
+    ]
+  },
+  "properties": {
+    "placename": "ميلة",
+    "hebrewname": "מילה",
+    "englishname": "mylah",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "باغاية",
+      "District": "الزاب",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf15"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      29.88079617,
+      26.49020141
+    ]
+  },
+  "properties": {
+    "placename": "مصر",
+    "hebrewname": "מצר",
+    "englishname": "mSr",
+    "Description": "",
+    "count": 132,
+    "Relation": {
+      "Type_Arabic": "بلاد",
+      "Type_English": "caliphate's country",
+      "Metropolitan": "رشيد",
+      "District": "النيل",
+      "Province": "غربية"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf17"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      37.29440343,
+      27.38262207
+    ]
+  },
+  "properties": {
+    "placename": "تبوك",
+    "hebrewname": "תבוכ",
+    "englishname": "tbok",
+    "Description": "",
+    "count": 7,
+    "Relation": {
+      "Type_Arabic": "طريق",
+      "Type_English": "road",
+      "Metropolitan": "الحجر",
+      "District": "-",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf32"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      88.71036738033989,
+      31.276986958265176
+    ]
+  },
+  "properties": {
+    "placename": "التبت",
+    "hebrewname": "אלתבת",
+    "englishname": "altbt",
+    "Description": "",
+    "count": 11,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf38"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.75801,
+      36.95442
+    ]
+  },
+  "properties": {
+    "placename": "طبرقة",
+    "hebrewname": "טברקה",
+    "englishname": "Tbrqah",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "البربري",
+      "District": "-",
+      "Province": "المغرب"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf39"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.94871,
+      35.18188
+    ]
+  },
+  "properties": {
+    "placename": "بانياس",
+    "hebrewname": "באניאס",
+    "englishname": "banyas",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "دمشق",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf44"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      51.67462,
+      32.65246
+    ]
+  },
+  "properties": {
+    "placename": "اصبهان",
+    "hebrewname": "אצבהאנ",
+    "englishname": "aSbhan",
+    "Description": "",
+    "count": 49,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf5a"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      57.53885211139506,
+      36.364805411885264
+    ]
+  },
+  "properties": {
+    "placename": "بالش",
+    "hebrewname": "באלש",
+    "englishname": "balsh",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf69"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      50.83388843558948,
+      28.900332728781052
+    ]
+  },
+  "properties": {
+    "placename": "ريشهر",
+    "hebrewname": "רישהר",
+    "englishname": "ryshhr",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "ناحية",
+      "Type_English": "district",
+      "Metropolitan": "أرجان",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf6d"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.973391962583932,
+      37.69790542449612
+    ]
+  },
+  "properties": {
+    "placename": "صقلية",
+    "hebrewname": "צקליה",
+    "englishname": "Sqlyah",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "بحر المغرب",
+      "District": "-",
+      "Province": "المغرب"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf70"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      39.108165536737495,
+      -3.4736588797589683
+    ]
+  },
+  "properties": {
+    "placename": "الزنج",
+    "hebrewname": "אלזנג",
+    "englishname": "alznj",
+    "Description": "",
+    "count": 20,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf80"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      1.3165433463178937,
+      35.37005356304799
+    ]
+  },
+  "properties": {
+    "placename": "تاهرت",
+    "hebrewname": "תאהרת",
+    "englishname": "tahrt",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "القيروان",
+      "District": "الزاب",
+      "Province": "إفريقية"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf93"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      43.31518,
+      14.1951
+    ]
+  },
+  "properties": {
+    "placename": "زبيد",
+    "hebrewname": "זביד",
+    "englishname": "zbyd",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "واد",
+      "Type_English": "valley",
+      "Metropolitan": "جبل وصاب",
+      "District": "تهامة",
+      "Province": "اليمن"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf98"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      31.1669,
+      30.97063
+    ]
+  },
+  "properties": {
+    "placename": "المحلة",
+    "hebrewname": "אלמחלה",
+    "englishname": "almHlah",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf9a"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      54.31996750848808,
+      29.193557576389875
+    ]
+  },
+  "properties": {
+    "placename": "نيريز",
+    "hebrewname": "ניריז",
+    "englishname": "nyryz",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "بلد",
+      "Type_English": "town",
+      "Metropolitan": "شيراز",
+      "District": "-",
+      "Province": "فارس"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfb0"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.44017,
+      32.05114
+    ]
+  },
+  "properties": {
+    "placename": "الكوفة",
+    "hebrewname": "אלכופה",
+    "englishname": "alkofah",
+    "Description": "",
+    "count": 27,
+    "Relation": {
+      "Type_Arabic": "أرض",
+      "Type_English": "land",
+      "Metropolitan": "الجيش",
+      "District": "الفرات",
+      "Province": "البصرة"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfb7"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      37.15662939,
+      35.22523197
+    ]
+  },
+  "properties": {
+    "placename": "حماة",
+    "hebrewname": "חמאה",
+    "englishname": "Hmaah",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "لغة",
+      "Type_English": "language",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfb9"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.49632,
+      32.49728
+    ]
+  },
+  "properties": {
+    "placename": "بيسان",
+    "hebrewname": "ביסאנ",
+    "englishname": "bysan",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "عين",
+      "Type_English": "spring",
+      "Metropolitan": "الأردن",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfbf"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -2.56861,
+      36.95692
+    ]
+  },
+  "properties": {
+    "placename": "المرية",
+    "hebrewname": "אלמריה",
+    "englishname": "almryah",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "بحر أندلس",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfce"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      42.47463029,
+      36.02265052
+    ]
+  },
+  "properties": {
+    "placename": "الموصل",
+    "hebrewname": "אלמוצל",
+    "englishname": "almoSl",
+    "Description": "",
+    "count": 20,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "بين النهرين",
+      "District": "دجلة",
+      "Province": "نينوي"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfcf"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      48.97038270767949,
+      36.26323779440585
+    ]
+  },
+  "properties": {
+    "placename": "سروان",
+    "hebrewname": "סרואנ",
+    "englishname": "sroan",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "داور",
+      "District": "-",
+      "Province": "سجستان"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfd4"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      38.06374,
+      24.08912
+    ]
+  },
+  "properties": {
+    "placename": "ينبع",
+    "hebrewname": "ינבע",
+    "englishname": "ynbC",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "قرية",
+      "Type_English": "village",
+      "Metropolitan": "البيضاء",
+      "District": "تهامة",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfe0"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.40469386,
+      15.32935876
+    ]
+  },
+  "properties": {
+    "placename": "صنعاء",
+    "hebrewname": "צנעאא",
+    "englishname": "SnCaa",
+    "Description": "",
+    "count": 8,
+    "Relation": {
+      "Type_Arabic": "بلد",
+      "Type_English": "town",
+      "Metropolitan": "جبل نقم",
+      "District": "مكة",
+      "Province": "اليمن"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfe7"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      58.357,
+      29.106
+    ]
+  },
+  "properties": {
+    "placename": "بم",
+    "hebrewname": "במ",
+    "englishname": "bm",
+    "Description": "",
+    "count": 12,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "قني",
+      "District": "-",
+      "Province": "كرمان"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bff9"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      34.86563,
+      31.92923
+    ]
+  },
+  "properties": {
+    "placename": "الرملة",
+    "hebrewname": "אלרמלה",
+    "englishname": "alrmlah",
+    "Description": "",
+    "count": 14,
+    "Relation": {
+      "Type_Arabic": "رمل",
+      "Type_English": "sand (desert)",
+      "Metropolitan": "القطيف",
+      "District": "فلسطين",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c001"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      38.29824515,
+      34.33814673
+    ]
+  },
+  "properties": {
+    "placename": "حمص",
+    "hebrewname": "חמצ",
+    "englishname": "HmS",
+    "Description": "",
+    "count": 17,
+    "Relation": {
+      "Type_Arabic": "طريق",
+      "Type_English": "road",
+      "Metropolitan": "قبلة",
+      "District": "-",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c01d"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.55923838442424,
+      35.26166871264844
+    ]
+  },
+  "properties": {
+    "placename": "شيزر",
+    "hebrewname": "שיזר",
+    "englishname": "shyzr",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "قلعة",
+      "Type_English": "castle",
+      "Metropolitan": "معرة",
+      "District": "حمص",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c020"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      38.31667,
+      38.35018
+    ]
+  },
+  "properties": {
+    "placename": "ملطية",
+    "hebrewname": "מלטיה",
+    "englishname": "mlTyah",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "بلدة",
+      "Type_English": "town",
+      "Metropolitan": "ملطية",
+      "District": "الفرات",
+      "Province": "الروم"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c023"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.2919,
+      38.08
+    ]
+  },
+  "properties": {
+    "placename": "تبريز",
+    "hebrewname": "תבריז",
+    "englishname": "tbryz",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "أذربيجان"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c028"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      48.6842,
+      31.31901
+    ]
+  },
+  "properties": {
+    "placename": "الأهواز",
+    "hebrewname": "אלאהואז",
+    "englishname": "alAhoaz",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "كورة",
+      "Type_English": "town",
+      "Metropolitan": "أرجان",
+      "District": "بغداد",
+      "Province": "خراسان"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c030"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.110311089916339,
+      33.92383442196869
+    ]
+  },
+  "properties": {
+    "placename": "قسطيلية",
+    "hebrewname": "קסטיליה",
+    "englishname": "qsTylyah",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "جريد",
+      "District": "الزاب",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c039"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      38.74288,
+      35.83917
+    ]
+  },
+  "properties": {
+    "placename": "المنصورة",
+    "hebrewname": "אלמנצורה",
+    "englishname": "almnSorah",
+    "Description": "",
+    "count": 29,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "السند"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf18"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      69.25654,
+      35.05352
+    ]
+  },
+  "properties": {
+    "placename": "ابراهيم",
+    "hebrewname": "אבראהימ",
+    "englishname": "abrahym",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf1e"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.92641,
+      37.5847
+    ]
+  },
+  "properties": {
+    "placename": "مرعش",
+    "hebrewname": "מרעש",
+    "englishname": "mrCsh",
+    "Description": "",
+    "count": 8,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "أطراف",
+      "District": "ثغور الشامية",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf4e"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      41.87656,
+      36.3209
+    ]
+  },
+  "properties": {
+    "placename": "سنجار",
+    "hebrewname": "סנגאר",
+    "englishname": "snjar",
+    "Description": "",
+    "count": 9,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "جبل جودي",
+      "District": "الحجاز",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf67"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.25444,
+      32.22111
+    ]
+  },
+  "properties": {
+    "placename": "نابلس",
+    "hebrewname": "נאבלס",
+    "englishname": "nabls",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "مني",
+      "District": "فلسطين",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf7b"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      31.65449962430884,
+      31.238650855196727
+    ]
+  },
+  "properties": {
+    "placename": "السرو",
+    "hebrewname": "אלסרו",
+    "englishname": "alsro",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "منازل",
+      "Type_English": "abodes",
+      "Metropolitan": "السرو",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf8e"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      52.23868135565834,
+      29.964945468794888
+    ]
+  },
+  "properties": {
+    "placename": "خلار",
+    "hebrewname": "חלאר",
+    "englishname": "xlar",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "موضع",
+      "Type_English": "place",
+      "Metropolitan": "نحل",
+      "District": "-",
+      "Province": "فارس"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf9f"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -5.79975,
+      35.76727
+    ]
+  },
+  "properties": {
+    "placename": "طنجة",
+    "hebrewname": "טנגה",
+    "englishname": "Tnjah",
+    "Description": "",
+    "count": 13,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "الزاوية",
+      "District": "-",
+      "Province": "المغرب"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfb4"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      48.51456,
+      34.79922
+    ]
+  },
+  "properties": {
+    "placename": "همدان",
+    "hebrewname": "המדאנ",
+    "englishname": "hmdan",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "تميم",
+      "District": "-",
+      "Province": "اليمن"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfcd"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      34.46667,
+      31.5
+    ]
+  },
+  "properties": {
+    "placename": "غزة",
+    "hebrewname": "עזה",
+    "englishname": "gzah",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "فطرس",
+      "District": "فلسطين",
+      "Province": "إفريقية"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfd1"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      32.28815767,
+      13.44291963
+    ]
+  },
+  "properties": {
+    "placename": "النيل",
+    "hebrewname": "אלניל",
+    "englishname": "alnyl",
+    "Description": "",
+    "count": 97,
+    "Relation": {
+      "Type_Arabic": "بليدة",
+      "Type_English": "small town",
+      "Metropolitan": "المقام",
+      "District": "الصعيد",
+      "Province": "مصر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bff6"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      59.52889,
+      22.56667
+    ]
+  },
+  "properties": {
+    "placename": "صور",
+    "hebrewname": "צור",
+    "englishname": "Sor",
+    "Description": "",
+    "count": 14,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "بحر شام",
+      "District": "سكنها",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bff7"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -5.45051,
+      36.13326
+    ]
+  },
+  "properties": {
+    "placename": "الجزيرة",
+    "hebrewname": "אלגזירה",
+    "englishname": "aljzyrah",
+    "Description": "",
+    "count": 53,
+    "Relation": {
+      "Type_Arabic": "موضع",
+      "Type_English": "place",
+      "Metropolitan": "-",
+      "District": "اليمامة",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c002"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      37.97389788956716,
+      25.64721574254666
+    ]
+  },
+  "properties": {
+    "placename": "الحجاز",
+    "hebrewname": "אלחגאז",
+    "englishname": "alHjaz",
+    "Description": "",
+    "count": 13,
+    "Relation": {
+      "Type_Arabic": "حبل",
+      "Type_English": "region",
+      "Metropolitan": "بسر",
+      "District": "مكة",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c015"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      42.74085041424417,
+      17.073451301270538
+    ]
+  },
+  "properties": {
+    "placename": "الطاهرية",
+    "hebrewname": "אלטאהריה",
+    "englishname": "alTahryah",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "ناحية",
+      "Type_English": "district",
+      "Metropolitan": "جيحون",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c024"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.53124,
+      32.79221
+    ]
+  },
+  "properties": {
+    "placename": "طبرية",
+    "hebrewname": "טבריה",
+    "englishname": "Tbryah",
+    "Description": "",
+    "count": 10,
+    "Relation": {
+      "Type_Arabic": "بليدة",
+      "Type_English": "small town",
+      "Metropolitan": "عكا",
+      "District": "دمشق",
+      "Province": "المغرب"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c026"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      45.93344,
+      33.11508
+    ]
+  },
+  "properties": {
+    "placename": "بدرة",
+    "hebrewname": "בדרה",
+    "englishname": "bdrah",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c03b"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      39.82753687492694,
+      21.42242928052312
+    ]
+  },
+  "properties": {
+    "placename": "الصفا",
+    "hebrewname": "אלצפא",
+    "englishname": "alSfa",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "طريق",
+      "Type_English": "road",
+      "Metropolitan": "تميم",
+      "District": "البحرين",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c048"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.78608728,
+      31.24548624
+    ]
+  },
+  "properties": {
+    "placename": "الاردن",
+    "hebrewname": "אלארדנ",
+    "englishname": "alardn",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c04b"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      31.55861,
+      6.20889
+    ]
+  },
+  "properties": {
+    "placename": "بور",
+    "hebrewname": "בור",
+    "englishname": "bor",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bee4"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      53.18619713,
+      29.29639233
+    ]
+  },
+  "properties": {
+    "placename": "فارس",
+    "hebrewname": "פארס",
+    "englishname": "fars",
+    "Description": "",
+    "count": 180,
+    "Relation": {
+      "Type_Arabic": "ولاية",
+      "Type_English": "non-arab province",
+      "Metropolitan": "إصطخر",
+      "District": "يزد",
+      "Province": "فارس"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bee7"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -6.301363963,
+      31.8809251
+    ]
+  },
+  "properties": {
+    "placename": "المغرب",
+    "hebrewname": "אלמערב",
+    "englishname": "almgrb",
+    "Description": "",
+    "count": 155,
+    "Relation": {
+      "Type_Arabic": "بلاد",
+      "Type_English": "caliphate's country",
+      "Metropolitan": "شك",
+      "District": "الزاب",
+      "Province": "المغرب"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf05"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      55.074168679593775,
+      36.63270929585483
+    ]
+  },
+  "properties": {
+    "placename": "خرقانه",
+    "hebrewname": "חרקאנה",
+    "englishname": "xrqanh",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf14"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      67.29228746653568,
+      37.26527097246019
+    ]
+  },
+  "properties": {
+    "placename": "ترمذ",
+    "hebrewname": "תרמד",
+    "englishname": "trmez'",
+    "Description": "",
+    "count": 20,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "مرو",
+      "District": "بلخ",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf1f"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.107882193407995,
+      34.43276800168738
+    ]
+  },
+  "properties": {
+    "placename": "جيرون",
+    "hebrewname": "גירונ",
+    "englishname": "jyron",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "الحوض",
+      "District": "دمشق",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf3c"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      51.47815698251835,
+      29.610793126367277
+    ]
+  },
+  "properties": {
+    "placename": "كمارج",
+    "hebrewname": "כמארג",
+    "englishname": "kmarj",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf48"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.22630122104913,
+      31.76402941190121
+    ]
+  },
+  "properties": {
+    "placename": "جيحون",
+    "hebrewname": "גיחונ",
+    "englishname": "jyHon",
+    "Description": "",
+    "count": 67,
+    "Relation": {
+      "Type_Arabic": "قرى",
+      "Type_English": "villages",
+      "Metropolitan": "آمل",
+      "District": "خوارزم",
+      "Province": "السند"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf63"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      29.9555323,
+      15.99164062
+    ]
+  },
+  "properties": {
+    "placename": "السودان",
+    "hebrewname": "אלסודאנ",
+    "englishname": "alsodan",
+    "Description": "",
+    "count": 31,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf72"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -4.288322070722005,
+      31.27651737319927
+    ]
+  },
+  "properties": {
+    "placename": "سجلماسة",
+    "hebrewname": "סגלמאסה",
+    "englishname": "sjlmasah",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "ناس",
+      "District": "-",
+      "Province": "المغرب"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf7c"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      53.46398165752285,
+      36.67707289806985
+    ]
+  },
+  "properties": {
+    "placename": "قوهستان",
+    "hebrewname": "קוהסתאנ",
+    "englishname": "qohstan",
+    "Description": "",
+    "count": 14,
+    "Relation": {
+      "Type_Arabic": "جبل",
+      "Type_English": "mountain",
+      "Metropolitan": "جيرفت",
+      "District": "هراة",
+      "Province": "كرمان"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf7d"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.38811,
+      14.20567
+    ]
+  },
+  "properties": {
+    "placename": "الرباط",
+    "hebrewname": "אלרבאט",
+    "englishname": "alrbaT",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfa9"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      50.06940723204515,
+      33.18514310341594
+    ]
+  },
+  "properties": {
+    "placename": "نوقان",
+    "hebrewname": "נוקאנ",
+    "englishname": "noqan",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "ولاية",
+      "Type_English": "non-arab province",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfbb"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      69.17233,
+      34.52813
+    ]
+  },
+  "properties": {
+    "placename": "كابل",
+    "hebrewname": "כאבל",
+    "englishname": "kabl",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "أرض",
+      "Type_English": "land",
+      "Metropolitan": "خواش",
+      "District": "الشرقية",
+      "Province": "طخارستان"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfc2"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      33.93117,
+      13.1483
+    ]
+  },
+  "properties": {
+    "placename": "سنجة",
+    "hebrewname": "סנגה",
+    "englishname": "snjah",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "نهر",
+      "Type_English": "river",
+      "Metropolitan": "-",
+      "District": "اللوح",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfc6"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      38.74042356,
+      29.67816806
+    ]
+  },
+  "properties": {
+    "placename": "الجوف",
+    "hebrewname": "אלגופ",
+    "englishname": "aljof",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "أرض",
+      "Type_English": "land",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c008"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.78246701176362,
+      34.38726676017967
+    ]
+  },
+  "properties": {
+    "placename": "القلمون",
+    "hebrewname": "אלקלמונ",
+    "englishname": "alqlmon",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "حصن",
+      "Type_English": "fort",
+      "Metropolitan": "يونان",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c019"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.48915363861416,
+      33.6175850829875
+    ]
+  },
+  "properties": {
+    "placename": "جرومية",
+    "hebrewname": "גרומיה",
+    "englishname": "jromyah",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c02c"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      48.440952299142346,
+      36.072099325500304
+    ]
+  },
+  "properties": {
+    "placename": "سهرورد",
+    "hebrewname": "סהרורד",
+    "englishname": "shrord",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "بلدة",
+      "Type_English": "town",
+      "Metropolitan": "زنجان",
+      "District": "بغداد",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c02d"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      34.92059649431761,
+      32.510148600625705
+    ]
+  },
+  "properties": {
+    "placename": "قيسارية",
+    "hebrewname": "קיסאריה",
+    "englishname": "qysaryah",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "قرى",
+      "Type_English": "villages",
+      "Metropolitan": "بحر شام",
+      "District": "فلسطين",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c034"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      42.82768,
+      33.63664
+    ]
+  },
+  "properties": {
+    "placename": "هيت",
+    "hebrewname": "הית",
+    "englishname": "hyt",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "بلدة",
+      "Type_English": "town",
+      "Metropolitan": "الأنبار",
+      "District": "الفرات",
+      "Province": "العراق"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c035"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      48.29365260848497,
+      38.24890326076943
+    ]
+  },
+  "properties": {
+    "placename": "أردبيل",
+    "hebrewname": "ארדביל",
+    "englishname": "Ardbyl",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "صورة",
+      "District": "-",
+      "Province": "أذربيجان"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c037"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      64.78566,
+      34.15599
+    ]
+  },
+  "properties": {
+    "placename": "الغور",
+    "hebrewname": "אלעור",
+    "englishname": "algor",
+    "Description": "",
+    "count": 20,
+    "Relation": {
+      "Type_Arabic": "منخفض",
+      "Type_English": "low place",
+      "Metropolitan": "الأردن",
+      "District": "تهامة",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c038"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      60.63598377360784,
+      25.36968646223289
+    ]
+  },
+  "properties": {
+    "placename": "مكران",
+    "hebrewname": "מכראנ",
+    "englishname": "mkran",
+    "Description": "",
+    "count": 16,
+    "Relation": {
+      "Type_Arabic": "ولاية",
+      "Type_English": "non-arab province",
+      "Metropolitan": "بحر فارس",
+      "District": "بابل",
+      "Province": "سجستان"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c043"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      49.91667,
+      17.3
+    ]
+  },
+  "properties": {
+    "placename": "ثمود",
+    "hebrewname": "תמוד",
+    "englishname": "vmod",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bee2"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      50.5487711,
+      26.05131104
+    ]
+  },
+  "properties": {
+    "placename": "البحرين",
+    "hebrewname": "אלבחרינ",
+    "englishname": "albHryn",
+    "Description": "",
+    "count": 23,
+    "Relation": {
+      "Type_Arabic": "جامع",
+      "Type_English": "mosque",
+      "Metropolitan": "هجر",
+      "District": "البحرين",
+      "Province": "الكوفة"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf01"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.297130245335175,
+      33.824011093686764
+    ]
+  },
+  "properties": {
+    "placename": "عكبرا",
+    "hebrewname": "עכברא",
+    "englishname": "Ckbra",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "بليدة",
+      "Type_English": "small town",
+      "Metropolitan": "دجيل",
+      "District": "السواد",
+      "Province": "العراق"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf02"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      43.348246023022256,
+      38.50443161034372
+    ]
+  },
+  "properties": {
+    "placename": "بوان",
+    "hebrewname": "בואנ",
+    "englishname": "boan",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "موضع",
+      "Type_English": "place",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf1d"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      37.59952067,
+      36.23280127
+    ]
+  },
+  "properties": {
+    "placename": "حلب",
+    "hebrewname": "חלב",
+    "englishname": "Hlb",
+    "Description": "",
+    "count": 18,
+    "Relation": {
+      "Type_Arabic": "قصبة",
+      "Type_English": "kasbah (city center)",
+      "Metropolitan": "عزاز",
+      "District": "بابل",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf24"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      59.6293838789339,
+      32.86224639960806
+    ]
+  },
+  "properties": {
+    "placename": "اسفزار",
+    "hebrewname": "אספזאר",
+    "englishname": "asfzar",
+    "Description": "",
+    "count": 7,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf2a"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -0.64167,
+      35.69111
+    ]
+  },
+  "properties": {
+    "placename": "وهران",
+    "hebrewname": "והראנ",
+    "englishname": "ohran",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf36"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.33076,
+      33.47101
+    ]
+  },
+  "properties": {
+    "placename": "باب",
+    "hebrewname": "באב",
+    "englishname": "bab",
+    "Description": "",
+    "count": 166,
+    "Relation": {
+      "Type_Arabic": "جبل",
+      "Type_English": "mountain",
+      "Metropolitan": "هجر",
+      "District": "البحرين",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf7a"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.666267262693204,
+      33.38488901945237
+    ]
+  },
+  "properties": {
+    "placename": "النهروان",
+    "hebrewname": "אלנהרואנ",
+    "englishname": "alnhroan",
+    "Description": "",
+    "count": 7,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf96"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      4.54194,
+      35.70583
+    ]
+  },
+  "properties": {
+    "placename": "المسيلة",
+    "hebrewname": "אלמסילה",
+    "englishname": "almsylah",
+    "Description": "",
+    "count": 8,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "المغرب"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfa3"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      39.25224249023975,
+      8.426565178795634
+    ]
+  },
+  "properties": {
+    "placename": "الحبشة",
+    "hebrewname": "אלחבשה",
+    "englishname": "alHbshah",
+    "Description": "",
+    "count": 17,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfdb"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.52718065015494,
+      35.019927562302115
+    ]
+  },
+  "properties": {
+    "placename": "البجة",
+    "hebrewname": "אלבגה",
+    "englishname": "albjah",
+    "Description": "",
+    "count": 33,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfea"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.94788316518503,
+      32.523554096583
+    ]
+  },
+  "properties": {
+    "placename": "النوبة",
+    "hebrewname": "אלנובה",
+    "englishname": "alnobah",
+    "Description": "",
+    "count": 32,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bff3"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      41.69073,
+      27.52188
+    ]
+  },
+  "properties": {
+    "placename": "حائل",
+    "hebrewname": "חאאל",
+    "englishname": "Haal",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "ماء",
+      "Type_English": "water",
+      "Metropolitan": "الكلب",
+      "District": "المروت",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c004"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      52.53113,
+      29.61031
+    ]
+  },
+  "properties": {
+    "placename": "شيراز",
+    "hebrewname": "שיראז",
+    "englishname": "shyraz",
+    "Description": "",
+    "count": 62,
+    "Relation": {
+      "Type_Arabic": "قصبة",
+      "Type_English": "kasbah (city center)",
+      "Metropolitan": "حارة",
+      "District": "-",
+      "Province": "فارس"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c00e"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      48.548321440240485,
+      36.674313405098765
+    ]
+  },
+  "properties": {
+    "placename": "طبرستان",
+    "hebrewname": "טברסתאנ",
+    "englishname": "Tbrstan",
+    "Description": "",
+    "count": 25,
+    "Relation": {
+      "Type_Arabic": "بلاد",
+      "Type_English": "caliphate's country",
+      "Metropolitan": "يزيد",
+      "District": "حدود خراسان",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c01e"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.78608728,
+      31.24548624
+    ]
+  },
+  "properties": {
+    "placename": "الأردن",
+    "hebrewname": "אלארדנ",
+    "englishname": "alArdn",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "بلد",
+      "Type_English": "town",
+      "Metropolitan": "طبرية",
+      "District": "حلب",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c025"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.779892468782016,
+      24.56230058598151
+    ]
+  },
+  "properties": {
+    "placename": "تيماء",
+    "hebrewname": "תימאא",
+    "englishname": "tymaa",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "بليد",
+      "Type_English": "small town",
+      "Metropolitan": "أطراف",
+      "District": "-",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c033"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.12977327036436,
+      35.75707166460141
+    ]
+  },
+  "properties": {
+    "placename": "بردى",
+    "hebrewname": "ברדא",
+    "englishname": "brda",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "نهر",
+      "Type_English": "river",
+      "Metropolitan": "الزبداني",
+      "District": "دمشق",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c036"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      103.86056,
+      13.36179
+    ]
+  },
+  "properties": {
+    "placename": "سيام",
+    "hebrewname": "סיאמ",
+    "englishname": "syam",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c044"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      32.899591056364706,
+      24.089826254515902
+    ]
+  },
+  "properties": {
+    "placename": "اسوان",
+    "hebrewname": "אסואנ",
+    "englishname": "asoan",
+    "Description": "",
+    "count": 32,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c047"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -5.06182416564611,
+      34.03930715510675
+    ]
+  },
+  "properties": {
+    "placename": "كرماطه",
+    "hebrewname": "כרמאטה",
+    "englishname": "krmaTh",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bef5"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.71535297637723,
+      24.59426088498333
+    ]
+  },
+  "properties": {
+    "placename": "اليمامة",
+    "hebrewname": "אלימאמה",
+    "englishname": "alymamah",
+    "Description": "",
+    "count": 8,
+    "Relation": {
+      "Type_Arabic": "رمل",
+      "Type_English": "sand (desert)",
+      "Metropolitan": "الدام",
+      "District": "اليمامة",
+      "Province": "الوشم"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf1c"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      31.137596949279573,
+      31.561071481752162
+    ]
+  },
+  "properties": {
+    "placename": "البرلس",
+    "hebrewname": "אלברלס",
+    "englishname": "albrls",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf2e"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      42.17638755545029,
+      37.21491870272321
+    ]
+  },
+  "properties": {
+    "placename": "كفرتوثا",
+    "hebrewname": "כפרתותא",
+    "englishname": "kfrtova",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "قرية",
+      "Type_English": "village",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf42"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      30.78007170136666,
+      30.803346945701463
+    ]
+  },
+  "properties": {
+    "placename": "شابور",
+    "hebrewname": "שאבור",
+    "englishname": "shabor",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "موضع",
+      "Type_English": "place",
+      "Metropolitan": "مرو",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf4d"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.28563701709702,
+      33.43519823187182
+    ]
+  },
+  "properties": {
+    "placename": "عبدون",
+    "hebrewname": "עבדונ",
+    "englishname": "Cbdon",
+    "Description": "",
+    "count": 11,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf55"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      31.165892119597647,
+      30.833511215973
+    ]
+  },
+  "properties": {
+    "placename": "الاسكندرية",
+    "hebrewname": "אלאסכנדריה",
+    "englishname": "alaskndryah",
+    "Description": "",
+    "count": 20,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf58"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      32.445587464872126,
+      30.224650219689376
+    ]
+  },
+  "properties": {
+    "placename": "كبريت",
+    "hebrewname": "כברית",
+    "englishname": "kbryt",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf8a"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      5.76671,
+      36.82055
+    ]
+  },
+  "properties": {
+    "placename": "جيجل",
+    "hebrewname": "גיגל",
+    "englishname": "jyjl",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "موضع",
+      "Type_English": "place",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf8c"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      33.80459845,
+      29.01236835
+    ]
+  },
+  "properties": {
+    "placename": "سيناء",
+    "hebrewname": "סינאא",
+    "englishname": "synaa",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf91"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.51027918,
+      30.07883031
+    ]
+  },
+  "properties": {
+    "placename": "سرت",
+    "hebrewname": "סרת",
+    "englishname": "srt",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "أجدابية",
+      "District": "السور",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf99"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      43.64784482861898,
+      37.099610459048
+    ]
+  },
+  "properties": {
+    "placename": "الرصافة",
+    "hebrewname": "אלרצאפה",
+    "englishname": "alrSafah",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "ما",
+      "Type_English": "water",
+      "Metropolitan": "تدمر",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfed"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      31.06877666749856,
+      30.24010605894508
+    ]
+  },
+  "properties": {
+    "placename": "شطنوف",
+    "hebrewname": "שטנופ",
+    "englishname": "shTnof",
+    "Description": "",
+    "count": 10,
+    "Relation": {
+      "Type_Arabic": "بلد",
+      "Type_English": "town",
+      "Metropolitan": "شط",
+      "District": "-",
+      "Province": "مصر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bff0"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.73763,
+      36.45606
+    ]
+  },
+  "properties": {
+    "placename": "نابل",
+    "hebrewname": "נאבל",
+    "englishname": "nabl",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "ثغر",
+      "Type_English": "frontier town",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "إفريقية"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bff2"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      43.9835840124656,
+      36.59685416133607
+    ]
+  },
+  "properties": {
+    "placename": "الزاب",
+    "hebrewname": "אלזאב",
+    "englishname": "alzab",
+    "Description": "",
+    "count": 9,
+    "Relation": {
+      "Type_Arabic": "حد",
+      "Type_English": "border",
+      "Metropolitan": "نصيبين",
+      "District": "الموصل",
+      "Province": "مشتكهر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bffc"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      3.1427575774961243,
+      36.73915789236678
+    ]
+  },
+  "properties": {
+    "placename": "الأرديس",
+    "hebrewname": "אלארדיס",
+    "englishname": "alArdys",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bffe"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      48.84079405476969,
+      32.04350085649194
+    ]
+  },
+  "properties": {
+    "placename": "تستر",
+    "hebrewname": "תסתר",
+    "englishname": "tstr",
+    "Description": "",
+    "count": 14,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "الحجارة",
+      "District": "العرق",
+      "Province": "خوزستان"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c013"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.14668,
+      13.92162
+    ]
+  },
+  "properties": {
+    "placename": "جبلة",
+    "hebrewname": "גבלה",
+    "englishname": "jblah",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "مواضع",
+      "Type_English": "places",
+      "Metropolitan": "عرينة",
+      "District": "الحجاز",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf0d"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      72.5492819956955,
+      30.855756366994182
+    ]
+  },
+  "properties": {
+    "placename": "الرجان",
+    "hebrewname": "אלרגאנ",
+    "englishname": "alrjan",
+    "Description": "",
+    "count": 26,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf10"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.48256,
+      32.52013
+    ]
+  },
+  "properties": {
+    "placename": "بصرى",
+    "hebrewname": "בצרא",
+    "englishname": "bSra",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "قصبة",
+      "Type_English": "kasbah (city center)",
+      "Metropolitan": "-",
+      "District": "برقة",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf12"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      43.67861,
+      34.61581
+    ]
+  },
+  "properties": {
+    "placename": "تكريت",
+    "hebrewname": "תכרית",
+    "englishname": "tkryt",
+    "Description": "",
+    "count": 23,
+    "Relation": {
+      "Type_Arabic": "بلد",
+      "Type_English": "town",
+      "Metropolitan": "الخرج",
+      "District": "الزاب",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf13"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      34.57409483003408,
+      31.66757416573755
+    ]
+  },
+  "properties": {
+    "placename": "عسقلان",
+    "hebrewname": "עסקלאנ",
+    "englishname": "Csqlan",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "عكا",
+      "District": "فلسطين",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf22"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      40.776528791913655,
+      35.74186455490719
+    ]
+  },
+  "properties": {
+    "placename": "ماكسين",
+    "hebrewname": "מאכסינ",
+    "englishname": "maksyn",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "بلد",
+      "Type_English": "town",
+      "Metropolitan": "رحبة",
+      "District": "الخابور",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf2c"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -0.559602727333131,
+      32.13514720283136
+    ]
+  },
+  "properties": {
+    "placename": "بوصير",
+    "hebrewname": "בוציר",
+    "englishname": "boSyr",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "قرى",
+      "Type_English": "villages",
+      "Metropolitan": "قين",
+      "District": "-",
+      "Province": "مصر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf3e"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      57.07879,
+      30.28321
+    ]
+  },
+  "properties": {
+    "placename": "كرمان",
+    "hebrewname": "כרמאנ",
+    "englishname": "krman",
+    "Description": "",
+    "count": 61,
+    "Relation": {
+      "Type_Arabic": "ولاية",
+      "Type_English": "non-arab province",
+      "Metropolitan": "روذان",
+      "District": "أصبهان",
+      "Province": "فارس"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf4c"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -4.2889380481679735,
+      35.16866460412635
+    ]
+  },
+  "properties": {
+    "placename": "بادس",
+    "hebrewname": "באדס",
+    "englishname": "bads",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "موضع",
+      "Type_English": "place",
+      "Metropolitan": "فاس",
+      "District": "الزاب",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf50"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      49.69172278249513,
+      34.07771459651266
+    ]
+  },
+  "properties": {
+    "placename": "طوران",
+    "hebrewname": "טוראנ",
+    "englishname": "Toran",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "ناحية",
+      "Type_English": "district",
+      "Metropolitan": "مظلم",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf6a"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      50.226509573547254,
+      36.132831568742304
+    ]
+  },
+  "properties": {
+    "placename": "هزار",
+    "hebrewname": "הזאר",
+    "englishname": "hzar",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf87"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.73405,
+      30.19624
+    ]
+  },
+  "properties": {
+    "placename": "معان",
+    "hebrewname": "מעאנ",
+    "englishname": "mCan",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf90"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.35209382,
+      28.8209494
+    ]
+  },
+  "properties": {
+    "placename": "الواحات",
+    "hebrewname": "אלואחאת",
+    "englishname": "aloaHat",
+    "Description": "",
+    "count": 15,
+    "Relation": {
+      "Type_Arabic": "كورة",
+      "Type_English": "town",
+      "Metropolitan": "لواتة",
+      "District": "واح",
+      "Province": "مصر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfa2"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      43.78015956,
+      33.02990519
+    ]
+  },
+  "properties": {
+    "placename": "العراق",
+    "hebrewname": "אלעראק",
+    "englishname": "alCraq",
+    "Description": "",
+    "count": 97,
+    "Relation": {
+      "Type_Arabic": "ماء",
+      "Type_English": "water",
+      "Metropolitan": "القف",
+      "District": "الحجاز",
+      "Province": "المغرب"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfad"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      41.151513507131,
+      34.382114148704375
+    ]
+  },
+  "properties": {
+    "placename": "الفرات",
+    "hebrewname": "אלפראת",
+    "englishname": "alfrat",
+    "Description": "",
+    "count": 61,
+    "Relation": {
+      "Type_Arabic": "نهر",
+      "Type_English": "river",
+      "Metropolitan": "عانة",
+      "District": "بغداد",
+      "Province": "الكوفة"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfc5"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      49.08939773547354,
+      31.686210386697528
+    ]
+  },
+  "properties": {
+    "placename": "خورستان",
+    "hebrewname": "חורסתאנ",
+    "englishname": "xorstan",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfc8"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.03825,
+      35.78656
+    ]
+  },
+  "properties": {
+    "placename": "ربيعة",
+    "hebrewname": "רביעה",
+    "englishname": "rbyCah",
+    "Description": "",
+    "count": 22,
+    "Relation": {
+      "Type_Arabic": "قرية",
+      "Type_English": "village",
+      "Metropolitan": "المعركة",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfd3"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      34.41208,
+      31.46587
+    ]
+  },
+  "properties": {
+    "placename": "ابو",
+    "hebrewname": "אבו",
+    "englishname": "abo",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfe6"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      51.65415,
+      29.61949
+    ]
+  },
+  "properties": {
+    "placename": "كازرون",
+    "hebrewname": "כאזרונ",
+    "englishname": "kazron",
+    "Description": "",
+    "count": 7,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "توز",
+      "District": "الشافعي",
+      "Province": "فارس"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfe8"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      50.8764,
+      34.6401
+    ]
+  },
+  "properties": {
+    "placename": "قم",
+    "hebrewname": "קמ",
+    "englishname": "qm",
+    "Description": "",
+    "count": 11,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfef"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      37.05324,
+      35.01127
+    ]
+  },
+  "properties": {
+    "placename": "سلمية",
+    "hebrewname": "סלמיה",
+    "englishname": "slmyah",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "بليدة",
+      "Type_English": "small town",
+      "Metropolitan": "الشركة",
+      "District": "حمص",
+      "Province": "الشام"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bff8"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      31.310497399450757,
+      30.364243587449213
+    ]
+  },
+  "properties": {
+    "placename": "القلزم",
+    "hebrewname": "אלקלזמ",
+    "englishname": "alqlzm",
+    "Description": "",
+    "count": 41,
+    "Relation": {
+      "Type_Arabic": "ساحل",
+      "Type_English": "coast",
+      "Metropolitan": "طور",
+      "District": "مكة",
+      "Province": "مصر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bffb"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      31.56223,
+      30.42039
+    ]
+  },
+  "properties": {
+    "placename": "بلبيس",
+    "hebrewname": "בלביס",
+    "englishname": "blbys",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "المقدس",
+      "District": "-",
+      "Province": "مصر"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c00d"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.49442,
+      33.88894
+    ]
+  },
+  "properties": {
+    "placename": "بيروت",
+    "hebrewname": "בירות",
+    "englishname": "byrot",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "بحر شام",
+      "District": "دمشق",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c03f"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      52.662816577583015,
+      36.70764561657061
+    ]
+  },
+  "properties": {
+    "placename": "قباقب",
+    "hebrewname": "קבאקב",
+    "englishname": "qbaqb",
+    "Description": "",
+    "count": 5,
+    "Relation": {
+      "Type_Arabic": "نهر",
+      "Type_English": "river",
+      "Metropolitan": "ملطية",
+      "District": "الفرات",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bef3"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      39.86850782496402,
+      21.389291889336448
+    ]
+  },
+  "properties": {
+    "placename": "مكة",
+    "hebrewname": "מכה",
+    "englishname": "mkah",
+    "Description": "",
+    "count": 33,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "سرف",
+      "District": "مكة",
+      "Province": "البصرة"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bef8"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.48256,
+      32.52013
+    ]
+  },
+  "properties": {
+    "placename": "الشام",
+    "hebrewname": "אלשאמ",
+    "englishname": "alsham",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "موضع",
+      "Type_English": "place",
+      "Metropolitan": "الفراديس",
+      "District": "دمشق",
+      "Province": "اليمن"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf1a"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -5.8172178057127235,
+      35.18261200268548
+    ]
+  },
+  "properties": {
+    "placename": "الصفاصف",
+    "hebrewname": "אלצפאצפ",
+    "englishname": "alSfaSf",
+    "Description": "",
+    "count": 2,
+    "Relation": {
+      "Type_Arabic": "أرض",
+      "Type_English": "land",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf31"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      49.26443873822338,
+      40.71880645314996
+    ]
+  },
+  "properties": {
+    "placename": "الخزر",
+    "hebrewname": "אלחזר",
+    "englishname": "alxzr",
+    "Description": "",
+    "count": 60,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf3f"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      40.05604072110218,
+      15.666529696868228
+    ]
+  },
+  "properties": {
+    "placename": "دهلك",
+    "hebrewname": "דהלכ",
+    "englishname": "dhlk",
+    "Description": "",
+    "count": 4,
+    "Relation": {
+      "Type_Arabic": "جزيرة",
+      "Type_English": "island",
+      "Metropolitan": "بحر يمن",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf46"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      34.98172019981344,
+      31.783663864847234
+    ]
+  },
+  "properties": {
+    "placename": "تارم",
+    "hebrewname": "תארמ",
+    "englishname": "tarm",
+    "Description": "",
+    "count": 9,
+    "Relation": {
+      "Type_Arabic": "كورة",
+      "Type_English": "town",
+      "Metropolitan": "قزوين",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bf9b"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      53.5734534284601,
+      28.521834890688066
+    ]
+  },
+  "properties": {
+    "placename": "جهرم",
+    "hebrewname": "גהרמ",
+    "englishname": "jhrm",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "فارس"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfa1"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      37.39077,
+      11.59364
+    ]
+  },
+  "properties": {
+    "placename": "بحر",
+    "hebrewname": "בחר",
+    "englishname": "bHr",
+    "Description": "",
+    "count": 147,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfa6"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      65.25093,
+      34.51952
+    ]
+  },
+  "properties": {
+    "placename": "فيروز",
+    "hebrewname": "פירוז",
+    "englishname": "fyroz",
+    "Description": "",
+    "count": 6,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfbe"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      66.8972,
+      36.75635
+    ]
+  },
+  "properties": {
+    "placename": "بلخ",
+    "hebrewname": "בלח",
+    "englishname": "blx",
+    "Description": "",
+    "count": 41,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "سعد",
+      "District": "سمرقند",
+      "Province": "خراسان"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36bfc7"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      48.2933,
+      38.2498
+    ]
+  },
+  "properties": {
+    "placename": "اردبيل",
+    "hebrewname": "ארדביל",
+    "englishname": "ardbyl",
+    "Description": "",
+    "count": 22,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c00a"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.769653185400884,
+      33.402060494130424
+    ]
+  },
+  "properties": {
+    "placename": "برقعيد",
+    "hebrewname": "ברקעיד",
+    "englishname": "brqCyd",
+    "Description": "",
+    "count": 3,
+    "Relation": {
+      "Type_Arabic": "عين",
+      "Type_English": "spring",
+      "Metropolitan": "بقعاء",
+      "District": "الموصل",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c00f"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      48.3043,
+      30.3392
+    ]
+  },
+  "properties": {
+    "placename": "عبادان",
+    "hebrewname": "עבאדאנ",
+    "englishname": "Cbadan",
+    "Description": "",
+    "count": 21,
+    "Relation": {
+      "Type_Arabic": "موضع",
+      "Type_English": "place",
+      "Metropolitan": "ميان روذان",
+      "District": "-",
+      "Province": "البصرة"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c014"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      50.0041,
+      36.26877
+    ]
+  },
+  "properties": {
+    "placename": "قزوين",
+    "hebrewname": "קזוינ",
+    "englishname": "qzoyn",
+    "Description": "",
+    "count": 13,
+    "Relation": {
+      "Type_Arabic": "مدينة",
+      "Type_English": "city",
+      "Metropolitan": "زنجان",
+      "District": "اللوح",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c01b"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      44.09208,
+      13.33005
+    ]
+  },
+  "properties": {
+    "placename": "العين",
+    "hebrewname": "אלעינ",
+    "englishname": "alCyn",
+    "Description": "",
+    "count": 20,
+    "Relation": {
+      "Type_Arabic": "عين",
+      "Type_English": "spring",
+      "Metropolitan": "الدار",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c02a"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      28.856247813939017,
+      41.16782446524292
+    ]
+  },
+  "properties": {
+    "placename": "استنبول",
+    "hebrewname": "אסתנבול",
+    "englishname": "astnbol",
+    "Description": "",
+    "count": 1,
+    "Relation": {
+      "Type_Arabic": "-",
+      "Type_English": "-",
+      "Metropolitan": "-",
+      "District": "-",
+      "Province": "-"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "60acc998259febe16d36c045"
+  },
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.2543,
+      31.89682
+    ]
+  },
+  "properties": {
+    "placename": "برقة",
+    "hebrewname": "ברקה",
+    "englishname": "brqah",
+    "Description": "",
+    "count": 18,
+    "Relation": {
+      "Type_Arabic": "صقع",
+      "Type_English": "region",
+      "Metropolitan": "دينار",
+      "District": "-",
+      "Province": "المغرب"
+    }
+  }
+}]

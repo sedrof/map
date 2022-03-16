@@ -1,0 +1,414 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>
+        Data Tables
+    </title>
+    <link rel="icon" type="image/png" sizes="32x32" href="public/img/logo.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+</head>
+
+<body style="text-align:center;" id="body">
+
+    <!-- <h1 style="color:green;">
+        GeeksForGeeks
+    </h1> -->
+
+    <p id="GFG_UP" style="font-size: 15px; font-weight: bold;">
+    </p>
+
+    <!-- <button onclick="getAhsan()">
+        click here
+    </button> -->
+
+    <br><br>
+    <label>Book: </label>
+    <select size="1" name="books" id="books" onchange="usgsChanged(this);">
+        <option value="ahsan" SELECTED>Ahsan Taqasim</option>
+        <option value="albuldan">AlBuldan</option>
+        <option value="futooh_albuldan">Futooh AlBuldan</option>
+        <option value="surat_alArd">Surat AlArd</option>
+        <option value="tahqiq">TahqiqMalilHind</option>
+        <option value="rihlatfadlan">Rihlat Ibn Fadlan</option>
+        <option value="kitab">Kitab AlBuldan</option>
+        <option value="rihlatbatutah">Rihlat Ibn Baṭūṭah</option>
+        <option value="rihlatyazid">Rihlat Ibn Yazid</option>
+    </select>
+
+    <br><br>
+
+    <!-- <p>Click the button to sort the table numerically:</p>
+    <p><button onclick="getAlbuldan()">Get</button></p> -->
+
+    
+
+    <table align="center" id="table" border="2">
+        <thead>
+            <tr>
+                <th style="background-color:bisque;"> </th>
+                <th style="background-color:bisque;">Name</th>
+                <th style="background-color:bisque;">Name in English</th>
+                <th style="background-color:bisque;">Mentioned</th>
+                <th style="background-color:bisque;">Type (in Arabic)</th>
+                <th style="background-color:bisque;">Type (in English)</th>
+                <th style="background-color:bisque;">Metropolitan</th>
+                <th style="background-color:bisque;">District</th>
+                <th style="background-color:bisque;">Province</th>
+                <th style="background-color:bisque;">Coordinates</th>
+            </tr>
+            <thead>
+            <tbody></tbody>
+    </table>
+
+
+    <script>
+
+        function usgsChanged(el) {
+            window["display_" + el.options[el.selectedIndex].value]();
+        }
+
+        function display_ahsan() {
+            getAhsan();
+        }
+
+        function display_albuldan() {
+            getAlbuldan();
+        }
+
+        function display_futooh_albuldan() {
+            getFutooh();
+        }
+
+        function display_surat_alArd() {
+            getSurat();
+        }
+
+        function display_tahqiq() {
+            getTahqiq();
+        }
+        function display_rihlatfadlan() {
+            getRihlatFadlan();
+        }
+
+        function display_kitab() {
+            getKitab();
+        }
+
+        function display_rihlatbatutah() {
+            getRihlatBattuta();
+        }
+
+        function display_rihlatyazid() {
+            getRihlatYazid();
+        }
+
+
+
+        //Insert Defauly Data (Ahsan)
+        getAhsan();
+
+
+        function buildtable(list) {
+            //CLEAR TABLE
+            $("tbody").children().remove()
+
+            //insert new Data.
+            for (var i = 0; i < list.length; i++) {
+                tr = $('<tr/>');
+                num = i + 1;
+                tr.append('<td style="background-color:bisque;">' + num + "</td>");
+                tr.append("<td>" + JSON.stringify(list[i].properties.placename) + "</td>");
+                tr.append("<td>" + JSON.stringify(list[i].properties.englishname) + "</td>");
+                tr.append("<td>" + JSON.stringify(list[i].properties.count) + "</td>");
+                tr.append("<td>" + JSON.stringify(list[i].properties.Relation.Type_Arabic) + "</td>");
+                tr.append("<td>" + JSON.stringify(list[i].properties.Relation.Type_English) + "</td>");
+                tr.append("<td>" + JSON.stringify(list[i].properties.Relation.Metropolitan) + "</td>");
+                tr.append("<td>" + JSON.stringify(list[i].properties.Relation.District) + "</td>");
+                tr.append("<td>" + JSON.stringify(list[i].properties.Relation.Province) + "</td>");
+                tr.append("<td>" + JSON.stringify(list[i].geometry.coordinates) + "</td>");
+                $('table').append(tr);
+            }
+        }
+
+        function getAlbuldan() {
+            var list = (function () {
+                var list = null;
+                $.ajax({
+                    'async': false,
+                    'global': false,
+                    'url': 'data/AlBuldan_IbnFaqih.json',
+                    'dataType': "json",
+                    'success': function (data) {
+                        list = data;
+                    }
+                });
+                buildtable(list)
+            })();
+        }
+
+        function getAhsan() {
+            var list = (function () {
+                var list = null;
+                $.ajax({
+                    'async': false,
+                    'global': false,
+                    'url': 'data/AhsanTaqasim.json',
+                    'dataType': "json",
+                    'success': function (data) {
+                        list = data;
+                    }
+                });
+                buildtable(list)
+            })();
+        }
+
+        function getFutooh() {
+            var list = (function () {
+                var list = null;
+                $.ajax({
+                    'async': false,
+                    'global': false,
+                    'url': 'data/FutoohAlBuldan.json',
+                    'dataType': "json",
+                    'success': function (data) {
+                        list = data;
+                    }
+                });
+                buildtable(list)
+            })();
+        }
+
+        function getSurat() {
+            var list = (function () {
+                var list = null;
+                $.ajax({
+                    'async': false,
+                    'global': false,
+                    'url': 'data/SuratAlArd.json',
+                    'dataType': "json",
+                    'success': function (data) {
+                        list = data;
+                    }
+                });
+                buildtable(list)
+            })();
+        }
+
+        function getTahqiq() {
+            var list = (function () {
+                var list = null;
+                $.ajax({
+                    'async': false,
+                    'global': false,
+                    'url': 'data/TahqiqMaLilHind.json',
+                    'dataType': "json",
+                    'success': function (data) {
+                        list = data;
+                    }
+                });
+                buildtable(list)
+            })();
+        }
+
+        function getKitab() {
+            var list = (function () {
+                var list = null;
+                $.ajax({
+                    'async': false,
+                    'global': false,
+                    'url': 'data/KitabAlBuldan_AlYaqubi.json',
+                    'dataType': "json",
+                    'success': function (data) {
+                        list = data;
+                    }
+                });
+                buildtable(list)
+            })();
+        }
+
+
+        function getRihlatFadlan() {
+            var list = (function () {
+                var list = null;
+                $.ajax({
+                    'async': false,
+                    'global': false,
+                    'url': 'data/RihlatIbnFadlan.json',
+                    'dataType': "json",
+                    'success': function (data) {
+                        list = data;
+                    }
+                });
+                buildtable(list)
+            })();
+        }
+
+
+        function getRihlatYazid() {
+            var list = (function () {
+                var list = null;
+                $.ajax({
+                    'async': false,
+                    'global': false,
+                    'url': 'data/RihlatIbnYazidAlSirafi.json',
+                    'dataType': "json",
+                    'success': function (data) {
+                        list = data;
+                    }
+                });
+                buildtable(list)
+            })();
+        }
+
+        function getRihlatBattuta() {
+            var list = (function () {
+                var list = null;
+                $.ajax({
+                    'async': false,
+                    'global': false,
+                    'url': 'data/RihlatIbnBattuta.json',
+                    'dataType': "json",
+                    'success': function (data) {
+                        list = data;
+                    }
+                });
+                buildtable(list)
+            })();
+        }
+
+
+
+        function selectChanged() {
+            if (document.books.books.value == "Albuldan") {
+                alert("usgs_hour chosen");
+                console.log("SELECTED");
+            }
+
+
+        }
+
+// function sortTable() {
+//   var table, rows, switching, i, x, y, shouldSwitch;
+//   table = document.getElementById("table");
+//   switching = true;
+//   /*Make a loop that will continue until
+//   no switching has been done:*/
+//   while (switching) {
+//     //start by saying: no switching is done:
+//     switching = false;
+//     rows = table.rows;
+//     console.log( JSON.stringify(list[0].properties.count));
+//     /*Loop through all table rows (except the
+//     first, which contains table headers):*/
+//     for (i = 1; i < (list.length - 1); i++) {
+//       //start by saying there should be no switching:
+//       shouldSwitch = false;
+//       /*Get the two elements you want to compare,
+//       one from current row and one from the next:*/
+//       x = rows[i].getElementsByTagName("Mentioned")[0];
+//       y = rows[i + 1].getElementsByTagName("Mentioned")[0];
+//       //check if the two rows should switch place:
+//       if (JSON.stringify(list[i-1].properties.count) > JSON.stringify(list[i].properties.count)) {
+//         //if so, mark as a switch and break the loop:
+//         shouldSwitch = true;
+//         break;
+//       }
+//     }
+//     if (shouldSwitch) {
+//       /*If a switch has been marked, make the switch
+//       and mark that a switch has been done:*/
+//       rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+//       switching = true;
+//     }
+//   }
+// }
+
+// for (var i = 0; i < list.length; i++) {
+//             for (var key in list[i]) {
+//                       tr.append("<td>" + JSON.stringify(list[i]) + "</td>");
+//                       $('table').append(tr);
+//             }
+//         }
+// var columns = [];
+//            for (var i = 0; i < list.length; i++) {
+//                 var row = list[i];
+//                 console.log(row)
+
+//                 for (var k in row) {
+//                     if ($.inArray(k, columns) == -1) {
+//                         columns.push(k);
+
+//                         // Creating the header
+//                           tr.append("<td>" + k + "</td>");
+//                           $('table').append(tr);
+//                     }
+//                 }
+// var list = require('AhsanTaqasim.json'); //with path
+
+
+        // var list = [
+        //     { "col_1": "val_11", "col_3": "val_13" },
+        //     { "col_2": "val_22", "col_3": "val_23" },
+        //     { "col_1": "val_31", "col_3": "val_33" }
+        // ];
+
+        // console.log(list + " HERE ");
+
+        // el_up.innerHTML = "Click on the button to create "
+        //         +   "the table from the JSON data.<br><br>"
+        //         + JSON.stringify(list[0]) + "<br>" 
+        //         + JSON.stringify(list[1]) + "<br>"
+        //         + JSON.stringify(list[2]);
+
+        // function constructTable(selector) {
+
+        //     // Getting the all column names
+        //     var cols = Headers(list, selector);  
+
+        //     // Traversing the JSON data
+        //     for (var i = 0; i < list.length; i++) {
+        //         var row = $('<tr/>');   
+        //         for (var colIndex = 0; colIndex < cols.length; colIndex++)
+        //         {
+        //             var val = list[i][cols[colIndex]];
+
+        //             // If there is any key, which is matching
+        //             // with the column name
+        //             if (val == null) val = "";  
+        //                 row.append($('<td/>').html(val));
+        //         }
+
+        //         // Adding each row to the table
+        //         $(selector).append(row);
+        //     }
+        // }
+
+        // function Headers(list, selector) {
+        //     var columns = [];
+        //     var header = $('<tr/>');
+
+        //     for (var i = 0; i < list.length; i++) {
+        //         var row = list[i];
+        //         console.log(row)
+
+        //         for (var k in row) {
+        //             if ($.inArray(k, columns) == -1) {
+        //                 columns.push(k);
+
+        //                 // Creating the header
+        //                 header.append($('<th/>').html(k));
+        //             }
+        //         }
+        //     }
+
+        //     // Appending the header to the table
+        //     $(selector).append(header);
+        //         return columns;
+        // }       
+    </script>
+</body>
+
+</html>
